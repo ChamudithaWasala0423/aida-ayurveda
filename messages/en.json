@@ -1,3 +1,15 @@
 {
-    
+     "Navigation": {
+        "managebooking": "Rate us now",
+        "home": "Home",
+        "aboutUs": "About Us",
+        "Accommodation": "Accommodation",
+        "Experience": "Experience",
+        "Gallery": "Gallery",
+        "contact": "Contact Us",
+        "BookNow": "Book Now",
+        "ourCollections": "Our Collections",
+        "aidaHotelBentota": "Aida Hotel Bentota",
+        "aidaHotelInduruwa": "AIDA Hotel Induruwa"
+    }
 }
