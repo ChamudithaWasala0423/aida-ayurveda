@@ -122,13 +122,13 @@ export default function NavBar() {
       {/* Sticky desktop navbar on scroll */}
       <div
         className={cn(
-          "fixed top-0 left-0 right-0 z-50 hidden md:block transition-all duration-300",
+          "fixed top-0 left-0 right-0 z-50 hidden md:block transition-all duration-300 xl:flex xl:items-center xl:justify-center",
           showSticky
             ? "translate-y-0 opacity-100"
             : "-translate-y-full opacity-0 pointer-events-none"
         )}
       >
-        <div className=" bg-white/95 backdrop-blur border-b-3 border-orange-500">
+        <div className="hidden xl:block m-4 rounded-lg w-[80%] 2xl:w-[60%] bg-white/95 backdrop-blur border-1  shadow-lg border-orange-500">
           <div className="mx-auto w-full px-6">
             <div className="flex h-20 items-center justify-center gap-6">
               {/* Left items */}
@@ -239,7 +239,7 @@ export default function NavBar() {
       </div>
 
       {/* Top bar with centered logo */}
-      <div className="md:relative sticky flex items-center justify-start md:justify-center px-4 py-3 md:px-8 bg-white border-b">
+      <div className="relative flex items-center justify-start md:justify-center px-4 py-3 md:px-8 bg-white border-b">
         {/* Left side: Google reviews */}
         <div className="absolute left-4 top-1/2 -translate-y-1/2 hidden md:block">
           <Link
@@ -297,7 +297,7 @@ export default function NavBar() {
       </div>
 
       {/* Desktop nav with centered logo and items around */}
-      <nav className="hidden md:block bg-black px-6 py-3 text-white border-b-3 border-orange-500">
+      <nav className="hidden xl:block bg-black px-6 py-3 text-white border-b-3 border-orange-500">
         <div className="flex items-center justify-center gap-6">
           {/* Left items */}
           <NavigationMenu viewport={false}>
@@ -393,7 +393,7 @@ export default function NavBar() {
       </nav>
 
       {/* Mobile nav trigger */}
-      <div className="flex items-center justify-between bg-orange-500 px-4 py-3 text-white md:hidden">
+      <div className="flex items-center justify-between bg-orange-500 px-4 py-3 text-white xl:hidden">
         <Button
           variant="ghost"
           size="icon"
@@ -408,7 +408,7 @@ export default function NavBar() {
       {/* Mobile overlay menu */}
       <div
         className={cn(
-          "fixed inset-0 z-50 flex flex-col bg-white transition-all duration-500 ease-in-out md:hidden",
+          "fixed inset-0 z-50 flex flex-col bg-white transition-all duration-500 ease-in-out xl:hidden",
           mobileMenuOpen ? "opacity-100" : "pointer-events-none opacity-0"
         )}
       >

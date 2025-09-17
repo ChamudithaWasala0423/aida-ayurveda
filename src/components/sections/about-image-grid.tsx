@@ -57,7 +57,7 @@ const AboutImageGrid = ({
               </div>
             </Link>
           </div>
-          <div className="grid grid-cols-1 rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none lg:rounded-tr-none xl:rounded-tr-none md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none lg:rounded-tr-none xl:rounded-tr-none  xl:grid-cols-3 gap-4">
             <div className="relative h-[600px] bg-slate-100 rounded-bl-3xl rounded-tr-3xl md:rounded-bl-3xl lg:rounded-bl-3xl xl:rounded-bl-3xl">
               <Image
                 src={imageUrlOne}
@@ -69,7 +69,7 @@ const AboutImageGrid = ({
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-80 rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none lg:rounded-tr-none xl:rounded-tr-none md:rounded-bl-3xl  lg:rounded-bl-3xl xl:rounded-bl-3xl" />
               <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
                 <div className="flex flex-col items-center justify-center">
-                  <h3 className="text-xl font-semibold">{boxOneTitle}</h3>
+                  <h3 className="text-lg xl:text-xl text-center font-semibold">{boxOneTitle}</h3>
                   <Link href={UrlOne} target="_blank">
                     <Button variant="link" className="text-sm text-white ">
                       {t("DiscoverMore")}
@@ -89,7 +89,7 @@ const AboutImageGrid = ({
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-80 rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none lg:rounded-tr-none xl:rounded-tr-none md:rounded-bl-none  lg:rounded-bl-none xl:rounded-bl-none" />
               <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
                 <div className="flex flex-col items-center justify-center">
-                  <h3 className="text-xl font-semibold">{boxTwoTitle}</h3>
+                  <h3 className="text-lg xl:text-xl text-center font-semibold">{boxTwoTitle}</h3>
                   <Link href={UrlTwo}>
                     <Button variant="link" className="text-sm text-white ">
                       {t("DiscoverMore")}
@@ -109,7 +109,7 @@ const AboutImageGrid = ({
               <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-80 rounded-tr-3xl rounded-bl-3xl  md:rounded-bl-none  lg:rounded-bl-none xl:rounded-bl-none" />
               <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
                 <div className="flex flex-col items-center justify-center">
-                  <h3 className="text-xl font-semibold">{boxThreeTitle}</h3>
+                  <h3 className="text-lg xl:text-xl text-center font-semibold">{boxThreeTitle}</h3>
                   <Link href={UrlThree}>
                     <Button variant="link" className="text-sm text-white ">
                       {t("DiscoverMore")}

@@ -32,7 +32,7 @@ const BookingBar = () => {
             {t("Tagline")}
           </p>
         </div>
-        <div className="hidden lg:flex flex-col md:flex-row bg-white w-full md:w-[70%] h-auto md:h-20 rounded-tr-3xl rounded-bl-3xl mt-2 shadow-lg">
+        <div className="hidden lg:flex flex-col md:flex-row bg-white w-full xl:w-[70%] h-auto md:h-20 rounded-tr-3xl rounded-bl-3xl mt-2 shadow-lg">
           <div className="flex flex-col md:flex-row items-center justify-between w-full">
             <div className="flex items-center justify-center h-20 p-4">
               <Select>

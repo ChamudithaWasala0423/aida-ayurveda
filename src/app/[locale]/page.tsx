@@ -1,4 +1,5 @@
 import Heading from "@/components/general/Heading";
+import ImageDescriptionRight from "@/components/sections/Image-description-right";
 import AboutImageGrid from "@/components/sections/about-image-grid";
 import HeroVideo from "@/components/sections/HeroVideo";
 import { useTranslations } from "next-intl";
@@ -25,6 +26,13 @@ export default function Home() {
         boxOneTitle={t("AbotBoxOneTitle")}
         boxTwoTitle={t("AbotBoxTwoTitle")}
         boxThreeTitle={t("AbotBoxThreeTitle")}
+      />
+      <ImageDescriptionRight
+        title={t("rightImageOneTitle")}
+        description={t("rightImageOneDescription")}
+        imageUrl="https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758108724/Avinya-Ayurveda-Bentota-YOGA-3-2048x1365_tnqywx.jpg"
+        Url="https://booking.aidaayurveda.com"
+        buttonTitle={t("BookNow")}
       />
     </>
   );
