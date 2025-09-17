@@ -1,15 +1,31 @@
 import Heading from "@/components/general/Heading";
+import AboutImageGrid from "@/components/sections/about-image-grid";
 import HeroVideo from "@/components/sections/HeroVideo";
+import { useTranslations } from "next-intl";
 
 export default function Home() {
+  const t = useTranslations("HomePage");
   return (
     <>
       <Heading
-        title="AIDA Ayurveda Resort & Spa"
-        description="AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace."
-        keywords="Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka"
+        title={t("HeadingTitle")}
+        description={t("HeadingDescription")}
+        keywords={t("HeadingKeywords")}
       />
-    <HeroVideo videoUrl="https://res.cloudinary.com/dy3lm6cvw/video/upload/v1758022877/web_djruis.mp4" />
+      <HeroVideo videoUrl="https://res.cloudinary.com/dy3lm6cvw/video/upload/v1758022877/web_djruis.mp4" />
+      <AboutImageGrid
+        title={t("AboyHomeTitle")}
+        description={t("AboutHomeDescription")}
+        imageUrlOne="https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758106385/avinya-ayurveda-7_ggak9l.jpg"
+        imageUrlTwo="https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758106389/AH2I6140-Enhanced-NR-copy_yubjmi.jpg"
+        imageUrlThree="https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758106386/Avinya-Ayurveda-6-2048x1365_kgsuaw.jpg"
+        UrlOne="https://booking.aidaayurveda.com"
+        UrlTwo="https://booking.aidaayurveda.com/"
+        UrlThree="https://booking.aidaayurveda.com/"
+        boxOneTitle={t("AbotBoxOneTitle")}
+        boxTwoTitle={t("AbotBoxTwoTitle")}
+        boxThreeTitle={t("AbotBoxThreeTitle")}
+      />
     </>
   );
 }
