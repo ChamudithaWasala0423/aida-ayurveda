@@ -9,6 +9,7 @@ import ClientSay from "@/components/sections/client-say";
 import RightImageDescription from "@/components/sections/right-image-description";
 import LeftTitle from "@/components/sections/left-title";
 import { GallerySection } from "@/components/sections/gallery-section";
+import SocialCarousel from "@/components/sections/social-carousel";
 
 export default function Home() {
   const t = useTranslations("HomePage");
@@ -70,6 +71,7 @@ export default function Home() {
         />
         <GallerySection />
       </div>
+      <SocialCarousel />
     </>
   );
 }

@@ -76,5 +76,38 @@
         "reviewThree": "It is a peaceful, rejuvenating place, excellent Ayurvedic cuisine, high quality treatments with a fantastic team of therapists. Doctor Puimini will be able to guide you and direct your care meticulously and always in a caring manner. All the staff is very kind, we feel like family there, there is also a magnificent garden, it is calm and relaxing - A break that does a lot of good both physically and for the mind 🙏 Gratefully",
         "reviewFour": "We went last weekend for celebrate our anniversary ( me, wife and our two child ), we booked romantic river escape package we had awesome experience everything is perfectly organised by AIDA hotel they have super friendly staff too, nice architectural hotel in addition have beautiful garden, Our package include sundown boat safari at bentota river it's marvellous ride and ayurvedic therapy too, walking distance to bentota main beach too, Highly recommended, Also place to be Ayurvedic Therapy. Hotel situated at Bentota River Bank, large hotel with romantic calm view.",
         "reviewFive": "My stay at AIDA Ayurveda Resort was nothing short of transformative! The team here genuinely cares about your well-being, offering personalized treatments that left me feeling completely renewed. The therapists are skilled, and the Ayurvedic practices are authentic, making it a unique experience unlike any spa I've been to. The resort itself is serene and surrounded by nature, which made it easy to unwind and disconnect. The whole experience – from the treatments to the nutritious meals – was truly healing. I’ll definitely be back for another visit soon!"
-     }
+     },
+    "SocialSection": {
+        "Title": "We're quite social",
+        "Subtitle": "Tag us and let's connect",
+        "Handle": "@aidaayurveda",
+        "FlowerAlt": "ayurvedic icon"
+    },
+    "Footer": {
+        "LogoAlt": "AIDA Ayurveda logo",
+        "ContactButton": "Contact us",
+        "CompanyTitle": "Company",
+        "CollectionsTitle": "Our Collections",
+        "ExperienceTitle": "Experience",
+        "OtherTitle": "Other",
+        "Links": {
+            "Home": "Home",
+            "AboutUs": "About Us",
+            "Gallery": "Gallery",
+            "AidaHotelBentota": "Aida Hotel Bentota",
+            "AidaHotelInduruwa": "AIDA Hotel Induruwa",
+            "Ayurveda": "Ayurveda",
+            "Yoga": "YOGA",
+            "Accommodation": "Accommodation",
+            "Blog": "Blog"
+        },
+        "NewsletterTitle": "Join the newsletter and read the new posts first",
+        "NewsletterPlaceholder": "Your email here...",
+        "Subscribe": "Subscribe",
+        "BrandName": "AIDA Ayurveda Resort & Spa",
+        "AllRightsReserved": "All rights reserved.",
+        "ConceptBy": "Concept By",
+        "DevelopedBy": "Developed By",
+        "LeafAlt": "ayurvedic icon"
+    }
 }

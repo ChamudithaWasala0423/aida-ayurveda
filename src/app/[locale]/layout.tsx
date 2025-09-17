@@ -6,6 +6,8 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import ScrollToTop from "@/components/general/ScrollToTop";
 import NavBar from "@/components/general/navbar";
 import ScrollBookNow from "@/components/general/ScrollBookNow";
+import Footer from "@/components/general/Footer";
+
 
 
 const monserrat = Montserrat({
@@ -37,6 +39,7 @@ export default async function LocaleLayout({
           <NavBar />
           <ScrollBookNow />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
