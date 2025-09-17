@@ -6,6 +6,9 @@ import { useTranslations } from "next-intl";
 import Offers from "@/components/sections/offers";
 import YouTubeVideos from "@/components/sections/youtube-videos";
 import ClientSay from "@/components/sections/client-say";
+import RightImageDescription from "@/components/sections/right-image-description";
+import LeftTitle from "@/components/sections/left-title";
+import { GallerySection } from "@/components/sections/gallery-section";
 
 export default function Home() {
   const t = useTranslations("HomePage");
@@ -44,7 +47,30 @@ export default function Home() {
         buttonText={t("OffersButtonText")}
       />
       <YouTubeVideos />
-      <ClientSay imageUrl={"https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758126911/avinya-ayurveda-3-2048x1152_ycqrjz.jpg"} />
+      <ClientSay
+        imageUrl={
+          "https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758126911/avinya-ayurveda-3-2048x1152_ycqrjz.jpg"
+        }
+      />
+      <RightImageDescription
+        title={t("rightImageTwoTitle")}
+        description={t("rightImageTwoDescription")}
+        imageOneUrl="https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758127525/benefits-ayurvedic-healing-herbs_fgrbb0.jpg"
+        imageTwoUrl="https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758115832/Avinya-Ayurveda-5-2048x1365_cpflvc.jpg"
+        visible={""}
+        Url="/aida-ayurveda"
+        ButtonText={t("rightImageTwoButtonText")}
+      />
+       <div className="py-24 mt-24 bg-[#FCF2EB]">
+        <LeftTitle
+          title={`${t("galleryTitle")}`}
+          description={t("galleryDescription")}
+          buttonUrl="/gallery"
+          buttonText={`${t("galleryButtonText")}`}
+        />
+        <GallerySection />
+      </div>
     </>
   );
 }
+
