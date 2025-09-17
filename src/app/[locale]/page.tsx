@@ -5,6 +5,7 @@ import HeroVideo from "@/components/sections/HeroVideo";
 import { useTranslations } from "next-intl";
 import Offers from "@/components/sections/offers";
 import YouTubeVideos from "@/components/sections/youtube-videos";
+import ClientSay from "@/components/sections/client-say";
 
 export default function Home() {
   const t = useTranslations("HomePage");
@@ -43,6 +44,7 @@ export default function Home() {
         buttonText={t("OffersButtonText")}
       />
       <YouTubeVideos />
+      <ClientSay imageUrl={"https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758126911/avinya-ayurveda-3-2048x1152_ycqrjz.jpg"} />
     </>
   );
 }
