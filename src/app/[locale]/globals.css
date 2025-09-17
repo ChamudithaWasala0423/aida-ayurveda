@@ -1,5 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+/* 
+bg-[#F7710F] */
 
 @custom-variant dark (&:is(.dark *));
 

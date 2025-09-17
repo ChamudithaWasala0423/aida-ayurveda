@@ -1,5 +1,5 @@
 {
-     "Navigation": {
+    "Navigation": {
         "managebooking": "Rate us now",
         "home": "Home",
         "aboutUs": "About Us",
@@ -11,5 +11,20 @@
         "ourCollections": "Our Collections",
         "aidaHotelBentota": "Aida Hotel Bentota",
         "aidaHotelInduruwa": "AIDA Hotel Induruwa"
+    },
+    "BookingBar": {
+        "Tagline": "Best rate ayurvedic resort & spa",
+        "IconAlt": "ayurvedic icon",
+        "SelectRoomPlaceholder": "Select a Room",
+        "RoomsLabel": "Rooms",
+        "RoomOption": {
+            "SakuraSuite": "Sakura Suite Room with Full Board",
+            "DeluxeDouble": "Deluxe Double Room with Full board",
+            "PrivateVilla": "Private Villa with Full Board"
+        },
+        "Adults": "Adults",
+        "Children": "Children",
+        "BookNow": "Book Now",
+        "BookNowAria": "Book now"
     }
 }

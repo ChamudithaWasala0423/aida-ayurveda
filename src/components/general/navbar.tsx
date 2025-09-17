@@ -27,7 +27,7 @@ export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const t = useTranslations("Navigation");
   const local: string = useLocale();
-  const [showSticky, setShowSticky] = useState(false); // show condensed desktop navbar on scroll
+  const [showSticky, setShowSticky] = useState(false); 
 
   const onselectionchange = (locale: string) => {
     const currentPath = window.location.pathname.split("/").slice(2).join("/");
@@ -40,9 +40,9 @@ export default function NavBar() {
       case "en":
         return "English";
       case "de":
-        return "German";
+        return "Deutsch";
       case "ru":
-        return "Russian";
+        return "Русский";
       default:
         return locale;
     }
@@ -128,7 +128,7 @@ export default function NavBar() {
             : "-translate-y-full opacity-0 pointer-events-none"
         )}
       >
-        <div className=" bg-white/95 backdrop-blur border-b-2 border-orange-600">
+        <div className=" bg-white/95 backdrop-blur border-b-2 border-orange-500">
           <div className="mx-auto w-full px-6">
             <div className="flex h-20 items-center justify-center gap-6">
               {/* Left items */}
@@ -287,8 +287,8 @@ export default function NavBar() {
               ))}
             </DropdownMenuContent>
           </DropdownMenu>
-          <Link href="/contact">
-            <Button className="ml-4 rounded-full text-white bg-orange-600 hover:bg-orange-700">
+          <Link href="https://booking.aidaayurveda.com" target="_blank">
+            <Button size="lg" className="ml-4 rounded-full text-white">
               {t("BookNow")}
             </Button>
           </Link>
@@ -297,7 +297,7 @@ export default function NavBar() {
       </div>
 
       {/* Desktop nav with centered logo and items around */}
-      <nav className="hidden md:block bg-orange-600 px-6 py-3 text-white">
+      <nav className="hidden md:block bg-black px-6 py-3 text-white border-b-3 border-orange-500">
         <div className="flex items-center justify-center gap-6">
           {/* Left items */}
           <NavigationMenu viewport={false}>
@@ -393,7 +393,7 @@ export default function NavBar() {
       </nav>
 
       {/* Mobile nav trigger */}
-      <div className="flex items-center justify-between bg-orange-600 px-4 py-3 text-white md:hidden">
+      <div className="flex items-center justify-between bg-orange-500 px-4 py-3 text-white md:hidden">
         <Button
           variant="ghost"
           size="icon"
@@ -413,7 +413,7 @@ export default function NavBar() {
         )}
       >
         {/* Mobile top with centered logo */}
-        <div className="flex items-center justify-between p-4 border-b border-orange-600">
+        <div className="flex items-center justify-between p-4 border-b border-orange-500">
           <div className="flex-1 text-center">
             <Link href="/" className="inline-block">
               <Image
@@ -496,9 +496,9 @@ export default function NavBar() {
 
         {/* Mobile CTA */}
         <div className="p-6">
-          <Link href="/contact">
+          <Link href="https://booking.aidaayurveda.com" target="_blank">
             <Button
-              className="w-full bg-orange-600 text-white font-semibold hover:bg-orange-700 rounded-full py-3"
+              className="w-full bg-orange-500 text-white font-semibold hover:bg-orange-600 rounded-full py-3"
               onClick={() => setMobileMenuOpen(false)}
             >
               {t("BookNow")}

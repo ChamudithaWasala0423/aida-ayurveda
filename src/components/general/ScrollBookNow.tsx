@@ -22,7 +22,7 @@ export default function ScrollBookNow() {
       }
     >
       <Link
-        href="/contact"
+        href="https://booking.aidaayurveda.com"
         aria-label={t("BookNow")}
         role="button"
         className="
