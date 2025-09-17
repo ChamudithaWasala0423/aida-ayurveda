@@ -128,9 +128,9 @@ export default function NavBar() {
             : "-translate-y-full opacity-0 pointer-events-none"
         )}
       >
-        <div className="hidden xl:block m-4 rounded-lg w-[80%] 2xl:w-[60%] bg-white/95 backdrop-blur border-1  shadow-lg border-orange-500">
+        <div className="hidden xl:block m-2 rounded-lg w-[80%] 2xl:w-[60%] bg-white/95 backdrop-blur border-1  shadow-lg border-orange-500">
           <div className="mx-auto w-full px-6">
-            <div className="flex h-20 items-center justify-center gap-6">
+            <div className="flex h-16  items-center justify-center gap-6">
               {/* Left items */}
               <NavigationMenu viewport={false}>
                 <NavigationMenuList className="flex space-x-4">
@@ -180,9 +180,9 @@ export default function NavBar() {
               {/* Center logo */}
               <Link href="/" className="shrink-0 flex items-center">
                 <Image
-                  src="https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758026594/aida-hotel-logo_g9vdxd.png"
+                  src="https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758117037/aida-hotel-logo_exd8jx.png"
                   alt="Logo"
-                  width={220}
+                  width={200}
                   height={60}
                   className="h-14 w-auto"
                 />

@@ -3,6 +3,8 @@ import ImageDescriptionRight from "@/components/sections/Image-description-right
 import AboutImageGrid from "@/components/sections/about-image-grid";
 import HeroVideo from "@/components/sections/HeroVideo";
 import { useTranslations } from "next-intl";
+import Offers from "@/components/sections/offers";
+import YouTubeVideos from "@/components/sections/youtube-videos";
 
 export default function Home() {
   const t = useTranslations("HomePage");
@@ -34,6 +36,13 @@ export default function Home() {
         Url="https://booking.aidaayurveda.com"
         buttonTitle={t("BookNow")}
       />
+      <Offers
+        title={t("OffersTitle")}
+        description={t("OffersDescription")}
+        url="/about"
+        buttonText={t("OffersButtonText")}
+      />
+      <YouTubeVideos />
     </>
   );
 }

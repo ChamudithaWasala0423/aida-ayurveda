@@ -40,7 +40,26 @@
         "BookNow": "Book Now",
         "HeadingKeywords": "Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
         "rightImageOneTitle": "Inspired by YOGA",
-        "rightImageOneDescription": "At AIDA Ayurveda, we believe in the harmony of body, mind, and soul. Our yoga sessions, guided by expert instructors, complement our Ayurvedic therapies, offering you a path to physical wellness and mental clarity. Surrounded by the calming sounds of nature, practice yoga with a view of the Bentota River, where each breath draws you closer to balance and peace. Whether you are a beginner or an experienced practitioner, our yoga programs will leave you feeling inspired and centered."
-
+        "rightImageOneDescription": "At AIDA Ayurveda, we believe in the harmony of body, mind, and soul. Our yoga sessions, guided by expert instructors, complement our Ayurvedic therapies, offering you a path to physical wellness and mental clarity. Surrounded by the calming sounds of nature, practice yoga with a view of the Bentota River, where each breath draws you closer to balance and peace. Whether you are a beginner or an experienced practitioner, our yoga programs will leave you feeling inspired and centered.",
+        "OffersTitle": "Get offers aida ayurvedic resort & spa",
+        "OffersDescription": "Discover the essence of traditional healing at AIDA Ayurveda, where centuries-old Ayurvedic wisdom meets modern luxury. Our team of skilled Ayurvedic doctors and therapists are dedicated to providing tailored treatments that restore balance and vitality. From detoxification and stress relief to anti-aging therapies, we offer a range of services to meet your individual needs. Whether you're here for a short visit or a complete Ayurvedic immersion, AIDA Ayurveda promises an experience that will leave you feeling rejuvenated and revitalized.",
+        "OffersButtonText": "See More"
+    },
+    "OffersCarousel": {
+        "items": {
+            "relax": { "category": "AIDA Ayurvedic Life", "title": "Relax" },
+            "ayurvedic": { "category": "AIDA Ayurvedic Life", "title": "Ayurvedic" },
+            "yoga": { "category": "AIDA Ayurvedic Life", "title": "YOGA" },
+            "meditation": { "category": "AIDA Ayurvedic Life", "title": "Meditation" },
+            "stay": { "category": "AIDA Ayurvedic Life", "title": "Stay" },
+            "swimming": { "category": "AIDA Ayurvedic Life", "title": "Swimming" },
+            "enjoy": { "category": "AIDA Ayurvedic Life", "title": "Enjoy" }
+        }
+    },
+    "YouTubeSection": {
+        "Title": "Check out our YouTube Channel",
+        "Subtitle": "Subscribe us and let's connect",
+        "Handle": "@AidaAyurvedaBentota",
+        "FlowerAlt": "ayurvedic icon"
     }
 }

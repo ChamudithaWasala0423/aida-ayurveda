@@ -22,7 +22,7 @@ const ImageDescriptionRight = ({
     <section>
       <div className="h-full  w-full bg-[#FCF2EB]">
         <MaxWidthWrapper >
-          <div className=" w-full h-full grid grid-cols-1 xl:grid-cols-2  items-center justify-center">
+          <div className=" w-full h-full grid grid-cols-1 xl:grid-cols-2  items-center justify-center py-6">
             <div className=" w-full h-full  p-6 flex items-left justify-center flex-col">
               <h2 className="w-full  text-left text-balance uppercase font-light text-black text-3xl md:text-5xl lg:text-5xl font-[family-name:var(--font-lora)]">
                 {title}
