@@ -101,6 +101,7 @@ export default function NavBar() {
         { name: t("Accommodation"), href: "/accommodation" },
       ],
     },
+    { name: t("Blog"), href: "/blog" },
     { name: t("Gallery"), href: "/gallery" },
     { name: t("contact"), href: "/contact" },
   ];
@@ -128,7 +129,7 @@ export default function NavBar() {
             : "-translate-y-full opacity-0 pointer-events-none"
         )}
       >
-        <div className="hidden xl:block m-2 rounded-lg w-[80%] 2xl:w-[46%] bg-white/95 backdrop-blur border-1  shadow-lg border-orange-500">
+        <div className="hidden xl:block m-2 rounded-lg w-[80%] 2xl:w-[46%] bg-black/95 backdrop-blur border-1  shadow-lg border-orange-500">
           <div className="mx-auto w-full px-6">
             <div className="flex h-14  items-center justify-center gap-6">
               {/* Left items */}
@@ -142,7 +143,7 @@ export default function NavBar() {
                             href={item.href}
                             className={cn(
                               navigationMenuTriggerStyle(),
-                              "bg-transparent text-gray-800 hover:text-orange-600 hover:underline font-semibold"
+                              "bg-transparent text-white hover:text-orange-600 hover:underline font-medium"
                             )}
                           >
                             {item.name}
@@ -152,7 +153,7 @@ export default function NavBar() {
                     }
                     return (
                       <NavigationMenuItem key={item.name}>
-                        <NavigationMenuTrigger className="bg-transparent text-gray-800 hover:text-orange-600 font-semibold">
+                        <NavigationMenuTrigger className="bg-transparent text-white hover:text-orange-600 font-medium">
                           {item.name}
                         </NavigationMenuTrigger>
                         <NavigationMenuContent>
@@ -199,7 +200,7 @@ export default function NavBar() {
                             href={item.href}
                             className={cn(
                               navigationMenuTriggerStyle(),
-                              "bg-transparent text-gray-800 hover:text-orange-600 hover:underline font-semibold"
+                              "bg-transparent text-white hover:text-orange-600 hover:underline font-medium"
                             )}
                           >
                             {item.name}
@@ -209,7 +210,7 @@ export default function NavBar() {
                     }
                     return (
                       <NavigationMenuItem key={item.name}>
-                        <NavigationMenuTrigger className="bg-transparent text-gray-800 hover:text-orange-600 font-semibold">
+                        <NavigationMenuTrigger className="bg-transparent text-white hover:text-orange-600 font-medium">
                           {item.name}
                         </NavigationMenuTrigger>
                         <NavigationMenuContent>
@@ -219,7 +220,7 @@ export default function NavBar() {
                                 <NavigationMenuLink asChild>
                                   <Link
                                     href={child.href}
-                                    className="block rounded-md px-3 py-2 text-sm text-gray-700 bg-transparent hover:bg-transparent focus:bg-transparent active:bg-transparent hover:text-orange-600 transition"
+                                    className="block rounded-md px-3 py-2 text-sm text-white bg-transparent hover:bg-transparent focus:bg-transparent active:bg-transparent hover:text-orange-600 transition"
                                   >
                                     {child.name}
                                   </Link>
@@ -320,7 +321,7 @@ export default function NavBar() {
                 }
                 return (
                   <NavigationMenuItem key={item.name}>
-                    <NavigationMenuTrigger className="bg-transparent text-white font-semibold">
+                    <NavigationMenuTrigger className="bg-transparent text-white font-medium">
                       {item.name}
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
@@ -355,7 +356,7 @@ export default function NavBar() {
                         href={item.href}
                         className={cn(
                           navigationMenuTriggerStyle(),
-                          "bg-transparent hover:bg-transparent text-white hover:underline hover:text-white font-semibold"
+                          "bg-transparent hover:bg-transparent text-white hover:underline hover:text-white font-medium"
                         )}
                       >
                         {item.name}
@@ -365,7 +366,7 @@ export default function NavBar() {
                 }
                 return (
                   <NavigationMenuItem key={item.name}>
-                    <NavigationMenuTrigger className="bg-transparent text-white font-semibold">
+                    <NavigationMenuTrigger className="bg-transparent text-white font-medium">
                       {item.name}
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
@@ -498,7 +499,7 @@ export default function NavBar() {
         <div className="p-6">
           <Link href="https://booking.aidaayurveda.com" target="_blank">
             <Button
-              className="w-full bg-orange-500 text-white font-semibold hover:bg-orange-600 rounded-full py-3"
+              className="w-full bg-orange-500 text-white font-medium hover:bg-orange-600 rounded-full py-3"
               onClick={() => setMobileMenuOpen(false)}
             >
               {t("BookNow")}
