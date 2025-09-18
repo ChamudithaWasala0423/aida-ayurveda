@@ -24,10 +24,10 @@ const CenterTitle = ({ title, description, buttonUrl, buttonText }: Props) => {
               height={200}
               className="mb-4"
             />
-            <h2 className="font-heading text-3xl md:text-5xl lg:text-5xl font-[family-name:var(--font-lora)] font-light   text-foreground mb-6">
+            <h2 className=" uppercase font-heading text-3xl md:text-5xl lg:text-5xl font-[family-name:var(--font-lora)] font-light   text-foreground mb-6">
               {title}
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6">
+            <p className="text-xl text-muted-foreground max-w-5xl mx-auto leading-relaxed mb-6">
               {description}
             </p>
             <Link href={buttonUrl}>

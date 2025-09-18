@@ -192,7 +192,7 @@ const Footer = () => {
           </div>
           <p className="text-sm text-slate-900 mt-2 md:mt-0 lg:mt-0 xl:mt-0">
             {t("ConceptBy")}{" "}
-            <Link href="https://www.digitalescapeslk.com/" target="_blank">
+            <Link href="https://www.thedigitalescapes.com" target="_blank">
               <span className="font-bold text-lg">Digital Escapes </span>
             </Link>{" "}
             & {t("DevelopedBy")}{" "}

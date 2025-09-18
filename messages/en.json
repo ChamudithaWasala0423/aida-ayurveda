@@ -164,5 +164,160 @@
         "HotelBoxOneTitle": "Relax",
         "HotelBoxTwoTitle": "Stay",
         "HotelBoxThreeTitle": "Enjoy"
+    },
+    "AyurvedaPage": {
+        "HeadingTitle": "Ayurveda | AIDA Ayurveda Resort & Spa",
+        "HeadingDescription": "AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
+        "HeadingKeywords": "Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+        "HeroTitle": "Ayurvedic Treatments",
+        "HeroDescription": "At AIDA Ayurveda Resort & Spa, the concept of wellness & healing is at the heart of everything we do. When the guest walk into our care, wellbeing of you becomes the primary concern. Tailor making our treatment solutions to match one’s requirement is what we do best and that made us a name synonymous with Wellness and Healing.",
+        "HeroButtonText": "Contact Us",
+        "AboutAturvedaTitle": "What is Ayurveda?",
+        "AboutAturvedaDescription": "Ayur = Leben & Veda = Wissenschaft / Lehre (Sanskrit) Es ist ein altes Heilsystem, das auch heute noch vor allem in Indien und Sri Lanka praktiziert wird. Die Prinzipien des Ayurveda basieren darauf, dass alle Lebewesen aus drei Doshas (Energien) bestehen, die Vata (Luft), Pita (Feuer), Kapa (Erde) genannt werden. Wenn wir geboren werden, sind wir mit einem bestimmten Dosha-Typ geboren. Zum Zeitpunkt unserer Geburt sind diese drei Doshas in perfektem Gleichgewicht, das uns gesund leben lässt. Da wir aufgrund unserer verschiedenen Lebensstile, Alter, Nahrung, die wir essen, Arbeit, Wetter, allgemeine schlechte Lebensgewohnheiten aufwachsen, kommen die drei Doshas aus dem Gleichgewicht. Das macht uns krank",
+        "AboutAturvedaButtonText": "Book Now",
+        "AyurvedaInfoTitle": " Sri Lankan Ayurveda",
+        "AyurvedaInfoDescription": "Sri Lanka’s rich history in Ayurveda dates back over 3,000 years, offering an ancient, holistic healing system deeply rooted in the island's culture. At AIDA Ayurveda, we honor this heritage by providing traditional Sri Lankan Ayurvedic therapies that focus on restoring balance to the body, mind, and spirit. Sri Lankan Ayurveda emphasizes the use of herbal remedies, personalized dietary plans, and therapeutic treatments to address the root causes of illness. Through these practices, we aim to promote longevity, prevent disease, and ensure a sense of overall well-being.",
+        "AyurvedaInfoButtonText": "Contact Us"
+    },
+    "AyurvedaInfo": {
+        "TypesTitle": "Types of Sri Lankan Ayurveda",
+        "TypesIntro": "Sri Lankan Ayurveda consists of several key treatments and practices, all designed to harmonize your doshas (body energies) and promote natural healing. At AIDA Ayurveda, we offer:",
+        "TypesItems": {
+            "Abhyanga": {
+                "title": "Abhyanga.",
+                "desc": "A deeply relaxing treatment that nourishes the skin, muscles, and tissues."
+            },
+            "Shirodhara": {
+                "title": "Shirodhara.",
+                "desc": "A calming treatment where warm medicinal oil is gently poured on the forehead, promoting relaxation and mental clarity."
+            },
+            "Panchakarma": {
+                "title": "Panchakarma.",
+                "desc": "A detoxification process that cleanses the body of toxins and restores natural balance."
+            },
+            "HerbalSteam": {
+                "title": "Herbal Steam Therapy.",
+                "desc": "A cleansing therapy using steam infused with medicinal herbs to rejuvenate and refresh the body."
+            },
+            "Nasya": {
+                "title": "Nasya.",
+                "desc": "A nasal treatment that helps cleanse the respiratory system, enhancing breathing and relieving sinus issues."
+            }
+        },
+        "TypesOutro": "Each treatment is designed to align with your specific needs and is personalized after a consultation with our Ayurvedic experts.",
+        "BenefitsTitle": "Benefits of Sri Lankan Ayurveda",
+        "BenefitsIntroPrefix": "The benefits of Sri Lankan Ayurveda extend far beyond simple relaxation. By addressing the underlying causes of physical, mental, and emotional imbalances, Ayurvedic therapies at",
+        "BenefitsIntroSuffix": "offer a multitude of long-term health benefits, including:",
+        "BenefitsList": {
+            "StressRelief": "Stress Relief",
+            "Detoxification": "Detoxification",
+            "ImprovedDigestion": "Improved Digestion",
+            "BalancedEnergy": "Balanced Energy",
+            "Rejuvenation": "Rejuvenation"
+        },
+        "HowTitle": "How to Enter Into Ayurveda",
+        "HowIntroPrefix": "Starting your journey into Ayurveda is an enriching and transformative experience. At",
+        "HowIntroSuffix": ", we make it easy for you to embrace this ancient science with the guidance of our expert Ayurvedic doctors. Here’s how to begin:",
+        "Steps": {
+            "Consultation": {
+                "title": "Consultation.",
+                "desc": "Your Ayurvedic journey starts with a thorough consultation to assess your body type (Prakriti)."
+            },
+            "PersonalizedPlan": {
+                "title": "Personalized Plan.",
+                "desc": "Based on your unique needs, our experts will design a personalized treatment plan."
+            },
+            "Treatments": {
+                "title": "Ayurvedic Treatments.",
+                "desc": "Experience the healing power of Ayurveda through specialized treatments like Panchakarma and Shirodhara."
+            },
+            "HerbalSteam": {
+                "title": "Herbal Steam Therapy.",
+                "desc": "A cleansing therapy using steam infused with medicinal herbs to rejuvenate and refresh the body."
+            },
+            "OngoingWellness": {
+                "title": "Ongoing Wellness.",
+                "desc": "Ayurveda is more than just treatments; it’s a way of life."
+            }
+        },
+        "ImageAlt": "AIDA Ayurveda treatment",
+        "BrandShort": "AIDA Ayurveda"
+    },
+    "YogaPage":{
+         "HeadingTitle": "Yoga | AIDA Ayurveda Resort & Spa",
+        "HeadingDescription": "AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
+        "HeadingKeywords": "Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+        "HeroTitle": "YOGA",
+        "HeroDescription": "At AIDA Ayurveda, we believe in the harmony of body, mind, and soul. Our yoga sessions, guided by expert instructors, complement our Ayurvedic therapies, offering you a path to physical wellness and mental clarity. Surrounded by the calming sounds of nature, practice yoga with a view of the Bentota River, where each breath draws you closer to balance and peace. Whether you are a beginner or an experienced practitioner, our yoga programs will leave you feeling inspired and centered.",
+        "HeroButtonText": "Contact Us",
+        "AboutYogaTitle": "About Yoga",
+        "AboutYogaDescription": "Yoga is an ancient practice that originated in India over 5 thousand years ago. It is a holistic discipline that combines physical postures (asanas), breathing techniques (pranayama), meditation, and ethical principles to promote overall well-being. The word 'yoga' means 'union' in Sanskrit, symbolizing the connection between the body, mind, and spirit. Yoga aims to enhance physical strength, flexibility, and balance while fostering mental clarity and emotional stability. It is widely recognized for its numerous health benefits, including stress reduction, improved concentration, and increased vitality. At AIDA Ayurveda, we integrate yoga into our wellness programs to complement Ayurvedic treatments and support a balanced lifestyle.",
+        "AboutYogaButtonText": "Book Now",
+        "AboutBoxOneTitle": "Yoga for Stress Relief",
+        "AboutBoxTwoTitle": "Yoga for Flexibility",
+        "AboutBoxThreeTitle": "Yoga for Strength",
+        "YogaInfoTitle": "Yoga at AIDA Ayurveda",
+        "YogaInfoDescription": "At AIDA Ayurveda, we offer a comprehensive yoga program designed to enhance your wellness journey. Our yoga sessions are tailored to suit all levels of experience, from beginners to advanced practitioners. Whether you are looking to improve flexibility, build strength, or find inner peace, our expert instructors will guide you through a variety of yoga styles and techniques. Practicing yoga in the serene environment of AIDA Ayurveda, surrounded by nature and tranquility, provides the perfect setting for deep relaxation and rejuvenation. Join us to experience the transformative power of yoga as part of your holistic wellness routine.",
+        "YogaInfoButtonText": "Contact Us"
+    },
+    "YogaInfo": {
+        "TypesTitle": "Types of Yoga",
+        "TypesIntro": "We offer various types of yoga at AIDA Ayurveda, each tailored to suit different levels of experience and health needs:",
+        "TypesItems": {
+            "Hatha": {
+                "title": "Hatha Yoga.",
+                "desc": "A gentle form focusing on basic postures and breathing exercises to build strength, flexibility, and balance."
+            },
+            "Vinyasa": {
+                "title": "Vinyasa Flow.",
+                "desc": "A dynamic, fluid style linking breath to movement, ideal for increasing energy and endurance."
+            },
+            "Restorative": {
+                "title": "Restorative Yoga.",
+                "desc": "A relaxing practice using props to support gentle poses for deep relaxation and stress relief."
+            },
+            "Pranayama": {
+                "title": "Pranayama.",
+                "desc": "Controlled breathing to calm the mind, balance the nervous system, and enhance well-being."
+            },
+            "Meditation": {
+                "title": "Meditation.",
+                "desc": "Mindfulness practices designed to harmonize your wellness journey at AIDA Ayurveda."
+            }
+        },
+        "BenefitsTitle": "Benefits of Yoga",
+        "BenefitsIntro": "The practice of yoga offers a wide range of physical, mental, and emotional benefits. At AIDA Ayurveda, yoga is integrated into your wellness experience to enhance the effectiveness of your Ayurvedic treatments. Key benefits include:",
+        "BenefitsList": {
+            "ImprovedFlexibility": "Improved Flexibility",
+            "StrengthBalance": "Strength and Balance",
+            "StressReduction": "Stress Reduction",
+            "EnhancedBreathControl": "Enhanced Breath Control",
+            "HolisticHealing": "Holistic Healing"
+        },
+        "HowTitle": "How to Start Yoga at AIDA Ayurveda",
+        "HowIntro": "Beginning your yoga journey at AIDA Ayurveda is a gentle and mindful process designed to suit all levels of experience. Here’s how you can start:",
+        "Steps": {
+            "Consultation": {
+                "title": "Consultation.",
+                "desc": "Your yoga journey begins with a personal consultation to assess your fitness level, health conditions, and wellness goals."
+            },
+            "PersonalizedPractice": {
+                "title": "Personalized Practice.",
+                "desc": "Based on your needs, we create a personalized yoga plan that includes the right styles and intensity."
+            },
+            "DailyYoga": {
+                "title": "Daily Yoga.",
+                "desc": "Join guided sessions with our experienced instructors to build consistency and progress safely."
+            },
+            "HerbalSteamTherapy": {
+                "title": "Herbal Steam Therapy.",
+                "desc": "Complement your practice with rejuvenating herbal steam for deeper relaxation."
+            },
+            "OngoingPractice": {
+                "title": "Ongoing Practice.",
+                "desc": "Continue your routine with take-home tips and exercises to support long-term wellness."
+            }
+        },
+        "ImageAlt": "Yoga at AIDA Ayurveda"
     }
 }
