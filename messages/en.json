@@ -31,6 +31,7 @@
     },
     "HomePage": {
         "HeadingTitle": "AIDA Ayurveda Resort & Spa",
+        "AboutHeadingTitle": "About | AIDA Ayurveda Resort & Spa",
         "HeadingDescription": "AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
         "AboyHomeTitle": "Best rated ayurvedic resort & spa",
         "AboutHomeDescription": "At AIDA Ayurveda Resort & Spa, the concept of wellness & healing is at the heart of everything we do. When the guest walk into our care, wellbeing of you becomes the primary concern. Tailor making our treatment solutions to match one’s requirement is what we do best and that made us a name synonymous with Wellness and Healing.",
@@ -54,13 +55,34 @@
     },
     "OffersCarousel": {
         "items": {
-            "relax": { "category": "AIDA Ayurvedic Life", "title": "Relax" },
-            "ayurvedic": { "category": "AIDA Ayurvedic Life", "title": "Ayurvedic" },
-            "yoga": { "category": "AIDA Ayurvedic Life", "title": "YOGA" },
-            "meditation": { "category": "AIDA Ayurvedic Life", "title": "Meditation" },
-            "stay": { "category": "AIDA Ayurvedic Life", "title": "Stay" },
-            "swimming": { "category": "AIDA Ayurvedic Life", "title": "Swimming" },
-            "enjoy": { "category": "AIDA Ayurvedic Life", "title": "Enjoy" }
+            "relax": {
+                "category": "AIDA Ayurvedic Life",
+                "title": "Relax"
+            },
+            "ayurvedic": {
+                "category": "AIDA Ayurvedic Life",
+                "title": "Ayurvedic"
+            },
+            "yoga": {
+                "category": "AIDA Ayurvedic Life",
+                "title": "YOGA"
+            },
+            "meditation": {
+                "category": "AIDA Ayurvedic Life",
+                "title": "Meditation"
+            },
+            "stay": {
+                "category": "AIDA Ayurvedic Life",
+                "title": "Stay"
+            },
+            "swimming": {
+                "category": "AIDA Ayurvedic Life",
+                "title": "Swimming"
+            },
+            "enjoy": {
+                "category": "AIDA Ayurvedic Life",
+                "title": "Enjoy"
+            }
         }
     },
     "YouTubeSection": {
@@ -69,7 +91,7 @@
         "Handle": "@AidaAyurvedaBentota",
         "FlowerAlt": "ayurvedic icon"
     },
-     "ClientSay": {
+    "ClientSay": {
         "reviewTitle": "See More & Write Your Review",
         "guest": "Guest",
         "reviewOne": "Very good location. Near the beach and the center.. Very friendly and helpful staff. The purpose of the trip was - three weeks of Ayurvedic therapy and treatment. The result is amazing. The care of doctors, balanced food, yoga, professional therapists - met expectations one hundred percent. I am grateful to everyone for their sincerity and care. It is worth experiencing it at least once a year. Until next time 🙂",
@@ -77,7 +99,7 @@
         "reviewThree": "It is a peaceful, rejuvenating place, excellent Ayurvedic cuisine, high quality treatments with a fantastic team of therapists. Doctor Puimini will be able to guide you and direct your care meticulously and always in a caring manner. All the staff is very kind, we feel like family there, there is also a magnificent garden, it is calm and relaxing - A break that does a lot of good both physically and for the mind 🙏 Gratefully",
         "reviewFour": "We went last weekend for celebrate our anniversary ( me, wife and our two child ), we booked romantic river escape package we had awesome experience everything is perfectly organised by AIDA hotel they have super friendly staff too, nice architectural hotel in addition have beautiful garden, Our package include sundown boat safari at bentota river it's marvellous ride and ayurvedic therapy too, walking distance to bentota main beach too, Highly recommended, Also place to be Ayurvedic Therapy. Hotel situated at Bentota River Bank, large hotel with romantic calm view.",
         "reviewFive": "My stay at AIDA Ayurveda Resort was nothing short of transformative! The team here genuinely cares about your well-being, offering personalized treatments that left me feeling completely renewed. The therapists are skilled, and the Ayurvedic practices are authentic, making it a unique experience unlike any spa I've been to. The resort itself is serene and surrounded by nature, which made it easy to unwind and disconnect. The whole experience – from the treatments to the nutritious meals – was truly healing. I’ll definitely be back for another visit soon!"
-     },
+    },
     "SocialSection": {
         "Title": "We're quite social",
         "Subtitle": "Tag us and let's connect",
@@ -110,5 +132,37 @@
         "ConceptBy": "Concept By",
         "DevelopedBy": "Developed By",
         "LeafAlt": "ayurvedic icon"
+    },
+    "AboutPage": {
+        "HeadingTitle": "About | AIDA Ayurveda Resort & Spa",
+        "HeadingDescription": "AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
+        "HeadingKeywords": "Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+        "HeroTitle": "who we are",
+        "HeroDescription": "Welcome to AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
+        "HeroButtonText": "Contact Us",
+        "AboutResortTitle": "About our ayurvedic resort & spa",
+        "AboutResortDescription": "At AIDA Ayurveda, we are dedicated to offering a truly authentic Ayurvedic experience in the heart of Bentota, Sri Lanka. Founded on the ancient principles of Ayurveda, our hotel blends centuries-old healing traditions with modern luxury, creating a sanctuary where guests can achieve holistic well-being. Set along the picturesque Bentota River, AIDA Ayurveda provides an immersive wellness journey through personalized Ayurvedic treatments, therapeutic massages, yoga, and organic nutrition. Our team of certified Ayurvedic doctors and skilled therapists are committed to restoring your body’s natural balance by crafting treatments tailored to your specific needs, whether you're looking for detoxification, stress relief, or rejuvenation. We believe in a sustainable approach to healing, using locally sourced, natural ingredients to enhance your experience. At AIDA Ayurveda, we invite you to embrace the art of slow living, reconnect with nature, and rediscover your inner peace. Our tranquil surroundings, coupled with the profound wisdom of Ayurveda, offer the perfect environment for relaxation, healing, and personal transformation. Whether you're seeking a short wellness retreat or an extended stay, our goal is to provide you with a transformative experience that nourishes both body and mind.",
+        "AboutResortButtonText": "Book Now",
+        "ChairmanTitle": "About Our Chairman",
+        "ChairmanDescription": "Founded in 1975 by the visionary entrepreneur Deshabandu Deshamanya Nissanka Weerasena, the AIDA Group of Companies has emerged as a beacon of success both locally and internationally. Rooted in a legacy of excellence in the gem and jewellery business, Mr. Weerasena embarked on a remarkable journey, single-handedly crafting the AIDA brand into a symbol of quality and innovation. The genesis of AIDA finds its inspiration in the world of German opera, a nod to the invaluable support extended by German tourists during the nascent stages of the business. Fuelled by a relentless spirit and an unwavering commitment to excellence, Mr. Weerasena forged enduring relationships and cultivated a sterling reputation within the industry. Drawing from the rich tapestry of experience in the gem and jewellery trade, AIDA swiftly diversified its portfolio, transcending boundaries and venturing into new horizons. From the glittering world of gems, the AIDA brand seamlessly expanded into the vibrant realms of tourism, gastronomy, textiles, and the rejuvenating sanctuary of Ayurvedic hospitality.",
+        "ChairmanButtonText": "Contact us",
+        "AboutImageTitle": "Best rated ayurvedic resort & spa",
+        "AboutImageDescription": "At AIDA Ayurveda Resort & Spa, the concept of wellness & healing is at the heart of everything we do. When the guest walk into our care, wellbeing of you becomes the primary concern. Tailor making our treatment solutions to match one’s requirement is what we do best and that made us a name synonymous with Wellness and Healing.",
+        "BoxOneTitle": "Rejuvenation - 3 Days",
+        "BoxTwoTitle": "Stress Relief - 7 Days",
+        "BoxThreeTitle": "Weight Management - 14 Days"
+    },
+    "HotelPage": {
+        "HeadingTitle": "AIDA Hotel ",
+        "HeadingDescription": "AIDA Hotel, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
+        "HeadingKeywords": "Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+        "HeroTitle": "Best Rate Guaranteed Hotel",
+        "HeroDescription": "Live with us to live the story of each destination we are present in across Bentota, Sri Lanka. Discover a love for tropical island luxury with our hotels & resorts, and an electrifying side of life with AIDA Hotel Life at Nemtota Beach of Dreams, Sri Lanka. Our deep roots to the natural and cultural heritage of every place we call home, is celebrated with you.",
+        "HeroButtonText": "Contact Us",
+        "HotelHomeTitle": "Best Rate Guaranteed Hotel",
+        "HotelDescription": "Live with us to live the story of each destination we are present in across Bentota, Sri Lanka. Discover a love for tropical island luxury with our hotels & resorts, and an electrifying side of life with AIDA Hotel Life at Nemtota Beach of Dreams, Sri Lanka. Our deep roots to the natural and cultural heritage of every place we call home, is celebrated with you.",
+        "HotelBoxOneTitle": "Relax",
+        "HotelBoxTwoTitle": "Stay",
+        "HotelBoxThreeTitle": "Enjoy"
     }
 }

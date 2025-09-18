@@ -62,7 +62,7 @@ export default function Home() {
         Url="/aida-ayurveda"
         ButtonText={t("rightImageTwoButtonText")}
       />
-       <div className="py-24 mt-24 bg-[#FCF2EB]">
+      <div className="py-24 mt-24 bg-[#FCF2EB]">
         <CenterTitle
           title={`${t("galleryTitle")}`}
           description={t("galleryDescription")}
@@ -75,4 +75,3 @@ export default function Home() {
     </>
   );
 }
-
