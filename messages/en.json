@@ -319,5 +319,100 @@
             }
         },
         "ImageAlt": "Yoga at AIDA Ayurveda"
+    },
+    "AccommodationPage": {
+        "HeadingTitle": "Accommodation | AIDA Ayurveda Resort & Spa",
+        "HeadingDescription": "AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
+        "HeadingKeywords": "Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+        "HeroTitle": "Accommodation",
+        "HeroDescription": "Experience the perfect blend of traditional Ayurvedic healing and modern luxury at AIDA Ayurveda Resort & Spa. Our accommodations are designed to provide a serene and comfortable environment that complements your wellness journey. Each room and suite is thoughtfully appointed with natural materials and soothing colors to create a tranquil ambiance. Enjoy stunning views of the Bentota River or our lush gardens from your private balcony or terrace. Our rooms feature all the modern amenities you need for a relaxing stay, including air conditioning, Wi-Fi, and luxurious bathrooms with Ayurvedic toiletries. Whether you choose a cozy room or a spacious suite, you will find a peaceful retreat where you can unwind and rejuvenate after your Ayurvedic treatments and yoga sessions.",
+        "HeroButtonText": "Contact Us"
+    },
+    "AccommodationGrid": {
+        "IconAlt": "ayurvedic icon",
+        "Title": "STAY with us",
+        "Intro": "Avinya Ayurveda By Aida, Bentota is a 32 roomed purpose-built Ayurveda wellness facility. Located just on the famous Bentota riverbank, the resort offers a spectacular garden wing and river front rooms. The riverfront rooms entice you with the moving waters and on a clear day the silhouette of the Adams peak that is 150KM away is visible. Garden Wing rooms are nestled among two acres of landscaped foliage and have easy access to the Ayurveda facility.",
+        "Common": {
+            "BookNow": "Book Now",
+            "KnowMore": "Know More",
+            "PrivateBathroomTitle": "In your private bathroom:",
+            "FacilitiesTitle": "Facilities:",
+            "PrivateBathroomList": [
+                "Free toiletries",
+                "Spa bath",
+                "Toilet",
+                "Bath or shower"
+            ],
+            "ComfyBedsScore": "Comfy beds, 10 – Based on 5 reviews",
+            "FeatureLabels": {
+                "SizeUnit": "m²",
+                "Balcony": "Balcony",
+                "Garden": "Garden",
+                "AC": "AC",
+                "Bath": "Bath",
+                "Pool": "Pool",
+                "PoolView": "Pool View"
+            }
+        },
+        "Rooms": {
+            "SakuraSuite": {
+                "Title": "Sakura Suite Room with Full Board and Ayurvedic Treatments",
+                "BedInfo": "1 extra-large bed",
+                "SizeValue": "25",
+                "SizeLabel": "Size - 25 m²",
+                "Description": "This room comes with an attached bathroom.",
+                "FacilitiesList": [
+                    "Desk",
+                    "Refrigerator",
+                    "Linen",
+                    "Safety deposit box",
+                    "Tile/marble floor",
+                    "Towels",
+                    "Wardrobe or closet",
+                    "Seating Area",
+                    "Socket near the bed",
+                    "Clothes rack"
+                ]
+            },
+            "DeluxeDouble": {
+                "Title": "Deluxe Double Room with Full board and Ayurvedic treatments",
+                "BedInfo": "1 extra-large bed",
+                "SizeValue": "25",
+                "SizeLabel": "Size - 25 m²",
+                "Description": "The double room features air conditioning, a wardrobe, a terrace with garden views as well as a private bathroom boasting a bath. The unit has 1 bed.",
+                "FacilitiesList": [
+                    "Desk",
+                    "Refrigerator",
+                    "Linen",
+                    "Safety deposit box",
+                    "Tile/marble floor",
+                    "Towels",
+                    "Wardrobe or closet",
+                    "Seating Area",
+                    "Socket near the bed",
+                    "Clothes rack"
+                ]
+            },
+            "PrivateVilla": {
+                "Title": "Private Villa with Full Board and Ayurvedic Treatments",
+                "BedInfo": "1 extra-large bed",
+                "SizeValue": "30",
+                "SizeLabel": "Size - 30 m²",
+                "Description": "This villa is comprised of 1 living room, 2 separate bedrooms and 2 bathrooms with a shower and free toiletries. This villa is air-conditioned and features a tea and coffee maker, a wardrobe and garden views. The unit offers 3 beds.",
+                "FacilitiesList": [
+                    "Desk",
+                    "Refrigerator",
+                    "Linen",
+                    "Safety deposit box",
+                    "Tile/marble floor",
+                    "Tea/Coffee maker",
+                    "Wardrobe or closet",
+                    "Seating Area",
+                    "Socket near the bed",
+                    "Clothes rack"
+                ],
+                "UsePoolViewLabel": true
+            }
+        }
     }
 }

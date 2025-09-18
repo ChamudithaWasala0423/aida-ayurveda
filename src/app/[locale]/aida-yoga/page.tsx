@@ -3,7 +3,6 @@ import AboutImageGrid from "@/components/sections/about-image-grid";
 import CenterTitle from "@/components/sections/centerTitle";
 import HeroImage from "@/components/sections/hero-image";
 import ImageDescriptionRight from "@/components/sections/Image-description-right";
-import SocialCarousel from "@/components/sections/social-carousel";
 import YogaInfor from "@/components/sections/yoga-infor";
 import { useTranslations } from "next-intl";
 import React from "react";
@@ -52,7 +51,7 @@ const Page = () => {
         buttonText={`${t2("YogaInfoButtonText")}`}
       />
       <YogaInfor />
-      <SocialCarousel />
+     
     </>
   );
 };
