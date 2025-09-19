@@ -129,7 +129,7 @@ export default function NavBar() {
             : "-translate-y-full opacity-0 pointer-events-none"
         )}
       >
-        <div className="hidden xl:block m-2 rounded-lg w-[80%] 2xl:w-[46%] bg-black/95 backdrop-blur border-1  shadow-lg border-orange-500">
+        <div className="hidden xl:block m-2 rounded-lg w-[80%] 2xl:w-[60%] bg-black/95 backdrop-blur border-1  shadow-lg border-orange-500">
           <div className="mx-auto w-full px-6">
             <div className="flex h-14  items-center justify-center gap-6">
               {/* Left items */}

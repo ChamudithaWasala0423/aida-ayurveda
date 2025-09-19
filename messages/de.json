@@ -1,0 +1,532 @@
+{
+  "Navigation": {
+    "managebooking": "Jetzt bewerten",
+    "home": "Startseite",
+    "aboutUs": "Über uns",
+    "Accommodation": "Unterkunft",
+    "Experience": "Erlebnisse",
+    "Gallery": "Galerie",
+    "contact": "Kontakt",
+    "BookNow": "Jetzt buchen",
+    "ourCollections": "Unsere Kollektionen",
+    "aidaHotelBentota": "Aida Hotel Bentota",
+    "aidaHotelInduruwa": "AIDA Hotel Induruwa",
+    "DiscoverMore": "Mehr entdecken",
+    "Blog": "Blog"
+  },
+  "BookingBar": {
+    "Tagline": "Bestpreis Ayurveda-Resort & Spa",
+    "IconAlt": "Ayurveda-Symbol",
+    "SelectRoomPlaceholder": "Zimmer auswählen",
+    "RoomsLabel": "Zimmer",
+    "RoomOption": {
+      "SakuraSuite": "Sakura Suite Zimmer mit Vollpension",
+      "DeluxeDouble": "Deluxe Doppelzimmer mit Vollpension",
+      "PrivateVilla": "Privatvilla mit Vollpension"
+    },
+    "Adults": "Erwachsene",
+    "Children": "Kinder",
+    "BookNow": "Jetzt buchen",
+    "BookNowAria": "Jetzt buchen"
+  },
+  "HomePage": {
+    "HeadingTitle": "AIDA Ayurveda Resort & Spa",
+    "AboutHeadingTitle": "Über uns | AIDA Ayurveda Resort & Spa",
+    "HeadingDescription": "AIDA Ayurveda, Ihr ruhiger Rückzugsort am Ufer des Bentota River in Sri Lanka. Tauchen Sie in die alten Heiltraditionen des Ayurveda ein und genießen Sie luxuriöse Unterkünfte, die Wohlbefinden mit Komfort verbinden. Bei AIDA Ayurveda verfolgen wir einen ganzheitlichen Ansatz zur Verjüngung durch personalisierte Behandlungen, biologische Ernährung und geistige Balance – eingebettet in die natürliche Schönheit von Bentota. Ob Sie Entspannung oder Revitalisierung suchen, unser ayurvedisches Refugium bietet das perfekte Heiligtum, um zu heilen, sich zu erfrischen und Ihren inneren Frieden wiederzufinden.",
+    "AboyHomeTitle": "Bestbewertetes Ayurveda-Resort & Spa",
+    "AboutHomeDescription": "Im AIDA Ayurveda Resort & Spa steht das Konzept von Wellness und Heilung im Mittelpunkt unseres Handelns. Wenn Sie in unsere Obhut kommen, hat Ihr Wohlbefinden höchste Priorität. Unsere Behandlungen maßzuschneidern, um individuellen Anforderungen zu entsprechen, ist unsere Stärke – und genau das hat uns zu einem Namen gemacht, der mit Wellness und Heilung gleichgesetzt wird.",
+    "AbotBoxOneTitle": "Verjüngung – 3 Tage",
+    "AbotBoxTwoTitle": "Stressabbau – 7 Tage",
+    "AbotBoxThreeTitle": "Gewichtsmanagement – 14 Tage",
+    "contact": "Kontakt",
+    "BookNow": "Jetzt buchen",
+    "HeadingKeywords": "Ayurvedisches Resort, Ayurvedisches Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+    "rightImageOneTitle": "Inspiriert von YOGA",
+    "rightImageOneDescription": "Bei AIDA Ayurveda glauben wir an die Harmonie von Körper, Geist und Seele. Unsere von erfahrenen Lehrern geleiteten Yoga-Sitzungen ergänzen die ayurvedischen Therapien und bieten Ihnen einen Weg zu körperlichem Wohlbefinden und geistiger Klarheit. Umgeben von den beruhigenden Klängen der Natur üben Sie Yoga mit Blick auf den Bentota River – jeder Atemzug bringt Sie näher zu Balance und Frieden. Ob Anfänger oder Fortgeschrittene: Unsere Yogaprogramme machen Sie inspiriert und zentriert.",
+    "rightImageTwoTitle": "Ayurvedische Behandlungen",
+    "rightImageTwoDescription": "Bei AIDA Ayurveda bieten wir eine breite Palette authentischer ayurvedischer Behandlungen an, die sorgfältig entwickelt wurden, um Heilung und Wohlbefinden zu fördern. Unsere Behandlungen – darunter Abhyanga (Ganzkörper-Ölmassage), Shirodhara (Ölanwendung auf die Stirn), Panchakarma (Entgiftung) und Kräuterdampfbäder – werden individuell angepasst, um Ihre Doshas auszugleichen und Harmonie wiederherzustellen. Jede Behandlung wird von erfahrenen Therapeuten mit natürlichen Kräutern und Ölen durchgeführt, damit Körper und Geist die bestmögliche Pflege erhalten. Tauchen Sie ein in die Welt der traditionellen Heilkunst und erleben Sie die transformative Kraft des Ayurveda.",
+    "OffersTitle": "Angebote im AIDA Ayurveda Resort & Spa",
+    "OffersDescription": "Entdecken Sie die Essenz traditioneller Heilkunst bei AIDA Ayurveda, wo jahrtausendealte ayurvedische Weisheit auf modernen Luxus trifft. Unser Team aus erfahrenen ayurvedischen Ärzten und Therapeuten bietet maßgeschneiderte Behandlungen, die Balance und Vitalität zurückbringen. Von Entgiftung und Stressabbau bis hin zu Anti-Aging-Therapien – wir bieten eine Vielfalt an Leistungen für Ihre Bedürfnisse. Ob Kurzaufenthalt oder vollständiges Ayurveda-Programm: AIDA Ayurveda verspricht ein Erlebnis, das Sie verjüngt und revitalisiert zurücklässt.",
+    "OffersButtonText": "Mehr anzeigen",
+    "rightImageTwoButtonText": "Mehr entdecken",
+    "galleryTitle": "Unsere Galerie erkunden",
+    "galleryDescription": "AIDA Ayurveda, Ihr ruhiger Rückzugsort am Ufer des Bentota River, Sri Lanka. Tauchen Sie in die alten Heiltraditionen des Ayurveda ein und genießen Sie luxuriöse Unterkünfte, die Wohlbefinden mit Komfort verbinden. Bei AIDA Ayurveda verfolgen wir einen ganzheitlichen Ansatz zur Verjüngung durch personalisierte Behandlungen, biologische Ernährung und spirituelle Balance – eingebettet in die natürliche Schönheit von Bentota. Ob Entspannung oder Revitalisierung: Unser ayurvedisches Refugium ist das ideale Heiligtum, um zu heilen, sich zu erfrischen und Ihren inneren Frieden wiederzufinden.",
+    "galleryButtonText": "Mehr anzeigen"
+  },
+  "OffersCarousel": {
+    "items": {
+      "relax": {
+        "category": "AIDA Ayurvedisches Leben",
+        "title": "Entspannen"
+      },
+      "ayurvedic": {
+        "category": "AIDA Ayurvedisches Leben",
+        "title": "Ayurvedisch"
+      },
+      "yoga": {
+        "category": "AIDA Ayurvedisches Leben",
+        "title": "YOGA"
+      },
+      "meditation": {
+        "category": "AIDA Ayurvedisches Leben",
+        "title": "Meditation"
+      },
+      "stay": {
+        "category": "AIDA Ayurvedisches Leben",
+        "title": "Aufenthalt"
+      },
+      "swimming": {
+        "category": "AIDA Ayurvedisches Leben",
+        "title": "Schwimmen"
+      },
+      "enjoy": {
+        "category": "AIDA Ayurvedisches Leben",
+        "title": "Genießen"
+      }
+    }
+  },
+  "YouTubeSection": {
+    "Title": "Schauen Sie auf unserem YouTube-Kanal vorbei",
+    "Subtitle": "Abonnieren Sie uns und bleiben Sie in Verbindung",
+    "Handle": "@AidaAyurvedaBentota",
+    "FlowerAlt": "Ayurveda-Symbol"
+  },
+  "ClientSay": {
+    "reviewTitle": "Mehr ansehen & Ihre Bewertung schreiben",
+    "guest": "Gast",
+    "reviewOne": "Sehr gute Lage. Nahe am Strand und am Zentrum. Sehr freundliches und hilfsbereites Personal. Zweck der Reise waren drei Wochen Ayurveda-Therapie und Behandlung. Das Ergebnis ist erstaunlich. Die Betreuung durch Ärzte, ausgewogene Ernährung, Yoga, professionelle Therapeuten – erfüllten die Erwartungen zu hundert Prozent. Ich bin allen dankbar für ihre Aufrichtigkeit und Fürsorge. Es lohnt sich, dies mindestens einmal im Jahr zu erleben. Bis zum nächsten Mal 🙂",
+    "reviewTwo": "Ausgezeichnete Gastfreundschaft. Unterstützt von einem guten Team in allen Abteilungen des Aida Hotel Bentota. Mein Aufenthalt war mehr als komfortabel und die Ayurveda-Behandlung nicht nur sehr gut, sondern hervorragend. Ich empfehle allen Leserinnen und Lesern, ihren Aufenthalt im Aida zu erleben und sich mit der sri-lankischen Ayurveda-Therapie behandeln zu lassen. Sie werden in jeder Hinsicht eine freudige Erfahrung machen. God Bless!!",
+    "reviewThree": "Ein friedlicher, wohltuender Ort, ausgezeichnete ayurvedische Küche, hochwertige Behandlungen mit einem fantastischen Team von Therapeutinnen und Therapeuten. Dr. Puimini wird Sie sorgfältig führen und Ihre Pflege stets aufmerksam begleiten. Das gesamte Personal ist sehr freundlich, man fühlt sich wie in der Familie. Es gibt auch einen herrlichen Garten – ruhig und entspannend. Eine Auszeit, die Körper und Geist sehr guttut 🙏 Dankbar",
+    "reviewFour": "Wir waren letztes Wochenende dort, um unseren Jahrestag zu feiern (ich, meine Frau und unsere beiden Kinder). Wir buchten das 'Romantic River Escape'-Paket und hatten eine großartige Erfahrung – alles ist perfekt vom AIDA Hotel organisiert, das Personal ist superfreundlich, dazu ein architektonisch schönes Hotel mit wunderschönem Garten. Unser Paket beinhaltete eine Sundowner-Bootssafari auf dem Bentota River – eine großartige Fahrt – sowie Ayurveda-Therapie. Der Hauptstrand von Bentota ist fußläufig erreichbar. Sehr zu empfehlen, auch für Ayurveda-Therapien. Das Hotel liegt am Ufer des Bentota River, ein großes Haus mit romantischer, ruhiger Aussicht.",
+    "reviewFive": "Mein Aufenthalt im AIDA Ayurveda Resort war schlichtweg transformierend! Das Team kümmert sich wirklich um Ihr Wohlbefinden und bietet personalisierte Behandlungen, nach denen ich mich vollkommen erneuert fühlte. Die Therapeutinnen und Therapeuten sind versiert, die ayurvedischen Praktiken authentisch – ein einzigartiges Erlebnis, anders als jedes Spa, das ich kenne. Das Resort selbst ist ruhig und von Natur umgeben, perfekt zum Abschalten. Das gesamte Erlebnis – von den Behandlungen bis zu den nahrhaften Mahlzeiten – war wirklich heilend. Ich komme bald wieder!"
+  },
+  "SocialSection": {
+    "Title": "Wir sind ziemlich sozial",
+    "Subtitle": "Markieren Sie uns und lassen Sie uns vernetzen",
+    "Handle": "@aidaayurveda",
+    "FlowerAlt": "Ayurveda-Symbol"
+  },
+  "Footer": {
+    "LogoAlt": "AIDA Ayurveda Logo",
+    "ContactButton": "Kontakt",
+    "CompanyTitle": "Unternehmen",
+    "CollectionsTitle": "Unsere Kollektionen",
+    "ExperienceTitle": "Erlebnisse",
+    "OtherTitle": "Sonstiges",
+    "Links": {
+      "Home": "Startseite",
+      "AboutUs": "Über uns",
+      "Gallery": "Galerie",
+      "AidaHotelBentota": "Aida Hotel Bentota",
+      "AidaHotelInduruwa": "AIDA Hotel Induruwa",
+      "Ayurveda": "Ayurveda",
+      "Yoga": "YOGA",
+      "Accommodation": "Unterkunft",
+      "Blog": "Blog",
+      "PrivacyPolicy": "Datenschutzerklärung",
+      "CookiePolicy": "Cookie-Richtlinie"
+    },
+    "NewsletterTitle": "Newsletter abonnieren und neue Beiträge zuerst lesen",
+    "NewsletterPlaceholder": "Ihre E-Mail...",
+    "Subscribe": "Abonnieren",
+    "BrandName": "AIDA Ayurveda Resort & Spa",
+    "AllRightsReserved": "Alle Rechte vorbehalten.",
+    "ConceptBy": "Konzept von",
+    "DevelopedBy": "Entwickelt von",
+    "LeafAlt": "Ayurveda-Symbol"
+  },
+  "AboutPage": {
+    "HeadingTitle": "Über uns | AIDA Ayurveda Resort & Spa",
+    "HeadingDescription": "AIDA Ayurveda, Ihr ruhiger Rückzugsort am Ufer des Bentota River in Sri Lanka. Tauchen Sie in die alten Heiltraditionen des Ayurveda ein und genießen Sie luxuriöse Unterkünfte, die Wohlbefinden mit Komfort verbinden. Bei AIDA Ayurveda verfolgen wir einen ganzheitlichen Ansatz zur Verjüngung durch personalisierte Behandlungen, biologische Ernährung und spirituelle Balance – eingebettet in die natürliche Schönheit von Bentota. Ob Entspannung oder Revitalisierung: Unser ayurvedisches Refugium bietet das perfekte Heiligtum, um zu heilen, sich zu erfrischen und Ihren inneren Frieden wiederzufinden.",
+    "HeadingKeywords": "Ayurvedisches Resort, Ayurvedisches Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+    "HeroTitle": "wer wir sind",
+    "HeroDescription": "Willkommen bei AIDA Ayurveda, Ihrem ruhigen Rückzugsort am Ufer des Bentota River in Sri Lanka. Tauchen Sie in die alten Heiltraditionen des Ayurveda ein und genießen Sie luxuriöse Unterkünfte, die Wohlbefinden mit Komfort verbinden. Bei AIDA Ayurveda verfolgen wir einen ganzheitlichen Ansatz zur Verjüngung durch personalisierte Behandlungen, biologische Ernährung und geistige Balance – eingebettet in die natürliche Schönheit von Bentota. Ob Sie Entspannung oder Revitalisierung suchen, unser ayurvedisches Refugium bietet das perfekte Heiligtum, um zu heilen, sich zu erfrischen und Ihren inneren Frieden wiederzufinden.",
+    "HeroButtonText": "Kontakt",
+    "AboutResortTitle": "Über unser Ayurveda-Resort & Spa",
+    "AboutResortDescription": "Bei AIDA Ayurveda möchten wir ein wirklich authentisches Ayurveda-Erlebnis im Herzen von Bentota, Sri Lanka, bieten. Unser Hotel vereint die jahrtausendealten Prinzipien des Ayurveda mit modernem Luxus und schafft so ein Refugium, in dem Gäste ganzheitliches Wohlbefinden erreichen können. Entlang des malerischen Bentota River bietet AIDA Ayurveda eine immersive Wellness-Reise durch personalisierte Behandlungen, therapeutische Massagen, Yoga und biologische Ernährung. Unser Team aus zertifizierten Ayurveda-Ärzten und erfahrenen Therapeutinnen und Therapeuten stellt das natürliche Gleichgewicht Ihres Körpers wieder her, indem es Behandlungen individuell auf Ihre Bedürfnisse zuschneidet – ob Entgiftung, Stressabbau oder Verjüngung. Wir glauben an nachhaltige Heilung und nutzen lokal bezogene, natürliche Zutaten, um Ihr Erlebnis zu bereichern. Bei AIDA Ayurveda laden wir Sie ein, die Kunst des Slow Living zu umarmen, sich mit der Natur zu verbinden und Ihren inneren Frieden neu zu entdecken. Unsere ruhige Umgebung, gepaart mit der tiefen Weisheit des Ayurveda, bietet den perfekten Rahmen für Entspannung, Heilung und persönliche Transformation. Ob Kurzretreat oder längerer Aufenthalt – unser Ziel ist ein transformatives Erlebnis, das Körper und Geist nährt.",
+    "AboutResortButtonText": "Jetzt buchen",
+    "ChairmanTitle": "Über unseren Gründer",
+    "ChairmanDescription": "Die 1975 vom visionären Unternehmer Deshabandu Deshamanya Nissanka Weerasena gegründete AIDA Group of Companies ist lokal wie international zu einem Leuchtturm des Erfolgs geworden. Verwurzelt in einer Tradition der Exzellenz im Edelstein- und Schmuckgeschäft, formte Herr Weerasena die Marke AIDA im Alleingang zu einem Synonym für Qualität und Innovation. Die Inspiration für AIDA entstammt der Welt der deutschen Oper – eine Hommage an die Unterstützung deutscher Touristinnen und Touristen in den Anfangsjahren des Unternehmens. Angetrieben von unermüdlichem Einsatz und dem Streben nach Exzellenz knüpfte Herr Weerasena dauerhafte Beziehungen und baute sich einen hervorragenden Ruf auf. Ausgehend vom reichen Erfahrungsschatz im Edelstein- und Schmuckhandel diversifizierte AIDA rasch und weitete das Portfolio aus – von der funkelnden Welt der Edelsteine hin zu Tourismus, Gastronomie, Textilien und dem regenerativen Heilraum der ayurvedischen Hotellerie.",
+    "ChairmanButtonText": "Kontakt",
+    "AboutImageTitle": "Bestbewertetes Ayurveda-Resort & Spa",
+    "AboutImageDescription": "Im AIDA Ayurveda Resort & Spa steht das Konzept von Wellness und Heilung im Mittelpunkt. Sobald Gäste in unsere Obhut kommen, hat ihr Wohlbefinden oberste Priorität. Unsere Behandlungen maßzuschneidern, um individuellen Anforderungen zu entsprechen, ist unsere besondere Stärke – und der Grund, warum wir mit Wellness und Heilung verbunden werden.",
+    "BoxOneTitle": "Verjüngung – 3 Tage",
+    "BoxTwoTitle": "Stressabbau – 7 Tage",
+    "BoxThreeTitle": "Gewichtsmanagement – 14 Tage"
+  },
+  "HotelPage": {
+    "HeadingTitle": "AIDA Hotel",
+    "HeadingDescription": "AIDA Hotel – Ihr ruhiger Rückzugsort am Ufer des Bentota River, Sri Lanka. Tauchen Sie in die alten Heiltraditionen des Ayurveda ein und genießen Sie luxuriöse Unterkünfte, die Wohlbefinden mit Komfort verbinden. Bei AIDA Ayurveda verfolgen wir einen ganzheitlichen Ansatz zur Verjüngung durch personalisierte Behandlungen, biologische Ernährung und geistige Balance – eingebettet in die natürliche Schönheit von Bentota.",
+    "HeadingKeywords": "Ayurvedisches Resort, Ayurvedisches Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+    "HeroTitle": "Hotel mit Bestpreisgarantie",
+    "HeroDescription": "Leben Sie mit uns die Geschichte jeder Destination, an der wir in Bentota, Sri Lanka, präsent sind. Entdecken Sie Ihre Liebe für tropischen Insel-Luxus mit unseren Hotels & Resorts und die elektrisierende Seite des Lebens mit AIDA Hotel Life am Nemtota Beach of Dreams, Sri Lanka. Unsere tiefen Wurzeln im natürlichen und kulturellen Erbe jedes Ortes, den wir Heimat nennen, feiern wir mit Ihnen.",
+    "HeroButtonText": "Kontakt",
+    "HotelHomeTitle": "Hotel mit Bestpreisgarantie",
+    "HotelDescription": "Leben Sie mit uns die Geschichte jeder Destination in Bentota, Sri Lanka. Entdecken Sie luxuriöse Hotels & Resorts und eine elektrisierende Seite des Lebens mit AIDA Hotel Life am Nemtota Beach of Dreams. Unsere Verbundenheit mit Natur und Kultur jedes Standorts feiern wir gemeinsam mit Ihnen.",
+    "HotelBoxOneTitle": "Entspannen",
+    "HotelBoxTwoTitle": "Aufenthalt",
+    "HotelBoxThreeTitle": "Genießen"
+  },
+  "AyurvedaPage": {
+    "HeadingTitle": "Ayurveda | AIDA Ayurveda Resort & Spa",
+    "HeadingDescription": "AIDA Ayurveda, Ihr ruhiger Rückzugsort am Bentota River, Sri Lanka. Tauchen Sie in die alten Heiltraditionen des Ayurveda ein und genießen Sie luxuriöse Unterkünfte, die Wohlbefinden mit Komfort verbinden. Wir bieten einen ganzheitlichen Ansatz zur Verjüngung durch personalisierte Behandlungen, biologische Ernährung und geistige Balance – eingebettet in die natürliche Schönheit von Bentota.",
+    "HeadingKeywords": "Ayurvedisches Resort, Ayurvedisches Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+    "HeroTitle": "Ayurvedische Behandlungen",
+    "HeroDescription": "Im AIDA Ayurveda Resort & Spa stehen Wellness und Heilung im Mittelpunkt. Sobald Sie in unsere Obhut kommen, hat Ihr Wohlbefinden oberste Priorität. Unsere Stärke sind maßgeschneiderte Behandlungen – so wurden wir zum Synonym für Wellness und Heilung.",
+    "HeroButtonText": "Kontakt",
+    "AboutAturvedaTitle": "Was ist Ayurveda?",
+    "AboutAturvedaDescription": "Ayur = Leben & Veda = Wissenschaft / Lehre (Sanskrit). Es ist ein altes Heilsystem, das auch heute noch vor allem in Indien und Sri Lanka praktiziert wird. Die Prinzipien des Ayurveda basieren darauf, dass alle Lebewesen aus drei Doshas (Energien) bestehen, die Vata (Luft), Pita (Feuer), Kapa (Erde) genannt werden. Wenn wir geboren werden, sind wir mit einem bestimmten Dosha-Typ geboren. Zum Zeitpunkt unserer Geburt sind diese drei Doshas in perfektem Gleichgewicht, das uns gesund leben lässt. Da wir aufgrund unserer verschiedenen Lebensstile, Alter, Nahrung, die wir essen, Arbeit, Wetter, allgemeine schlechte Lebensgewohnheiten aufwachsen, kommen die drei Doshas aus dem Gleichgewicht. Das macht uns krank.",
+    "AboutAturvedaButtonText": "Jetzt buchen",
+    "AyurvedaInfoTitle": "Sri Lanka Ayurveda",
+    "AyurvedaInfoDescription": "Sri Lanka blickt auf über 3.000 Jahre Ayurveda-Geschichte zurück – ein ganzheitliches Heilverfahren, das tief in der Kultur der Insel verwurzelt ist. Bei AIDA Ayurveda ehren wir dieses Erbe mit traditionellen sri-lankischen Therapien, die Körper, Geist und Seele ins Gleichgewicht bringen. Sri Lanka Ayurveda setzt auf Kräuterheilkunde, individuelle Ernährungspläne und therapeutische Behandlungen, um Ursachen von Krankheiten anzugehen. So fördern wir Langlebigkeit, beugen Krankheiten vor und stärken das allgemeine Wohlbefinden.",
+    "AyurvedaInfoButtonText": "Kontakt"
+  },
+  "AyurvedaInfo": {
+    "TypesTitle": "Arten des Sri Lanka Ayurveda",
+    "TypesIntro": "Sri Lanka Ayurveda umfasst mehrere zentrale Behandlungen und Praktiken, die Ihre Doshas harmonisieren und die natürliche Heilung fördern. Bei AIDA Ayurveda bieten wir:",
+    "TypesItems": {
+      "Abhyanga": {
+        "title": "Abhyanga.",
+        "desc": "Eine tief entspannende Behandlung, die Haut, Muskeln und Gewebe nährt."
+      },
+      "Shirodhara": {
+        "title": "Shirodhara.",
+        "desc": "Warme, medizinische Öle werden sanft auf die Stirn gegossen – beruhigt und fördert mentale Klarheit."
+      },
+      "Panchakarma": {
+        "title": "Panchakarma.",
+        "desc": "Ein Entgiftungsprozess, der den Körper von Toxinen reinigt und das natürliche Gleichgewicht wiederherstellt."
+      },
+      "HerbalSteam": {
+        "title": "Kräuterdampfbad.",
+        "desc": "Reinigende Dampfanwendung mit Heilkräutern zur Erneuerung und Erfrischung des Körpers."
+      },
+      "Nasya": {
+        "title": "Nasya.",
+        "desc": "Eine Nasenbehandlung zur Reinigung der Atemwege – erleichtert die Atmung und lindert Nebenhöhlenprobleme."
+      }
+    },
+    "TypesOutro": "Jede Behandlung wird nach einer Beratung mit unseren Ayurveda-Expertinnen und -Experten individuell auf Ihre Bedürfnisse abgestimmt.",
+    "BenefitsTitle": "Vorteile des Sri Lanka Ayurveda",
+    "BenefitsIntroPrefix": "Die Vorteile des Sri Lanka Ayurveda gehen weit über reine Entspannung hinaus. Indem die zugrunde liegenden Ursachen körperlicher, mentaler und emotionaler Ungleichgewichte adressiert werden, bieten die Therapien bei",
+    "BenefitsIntroSuffix": "eine Vielzahl langfristiger gesundheitlicher Vorteile, darunter:",
+    "BenefitsList": {
+      "StressRelief": "Stressabbau",
+      "Detoxification": "Entgiftung",
+      "ImprovedDigestion": "Verbesserte Verdauung",
+      "BalancedEnergy": "Ausgeglichenes Energieniveau",
+      "Rejuvenation": "Verjüngung"
+    },
+    "HowTitle": "So starten Sie mit Ayurveda",
+    "HowIntroPrefix": "Der Einstieg in Ayurveda ist eine bereichernde und transformative Erfahrung. Bei",
+    "HowIntroSuffix": "machen wir es Ihnen leicht, diese alte Wissenschaft mit der Anleitung unserer Ayurveda-Ärztinnen und -Ärzte zu erleben. So beginnen Sie:",
+    "Steps": {
+      "Consultation": {
+        "title": "Beratung.",
+        "desc": "Ihre Ayurveda-Reise beginnt mit einer umfassenden Beratung, um Ihren Körpertyp (Prakriti) zu bestimmen."
+      },
+      "PersonalizedPlan": {
+        "title": "Individueller Plan.",
+        "desc": "Auf Basis Ihrer Bedürfnisse entwerfen unsere Expertinnen und Experten einen persönlichen Behandlungsplan."
+      },
+      "Treatments": {
+        "title": "Ayurveda-Behandlungen.",
+        "desc": "Erleben Sie die Heilkraft des Ayurveda durch spezialisierte Behandlungen wie Panchakarma und Shirodhara."
+      },
+      "HerbalSteam": {
+        "title": "Kräuterdampfbad.",
+        "desc": "Eine reinigende Therapie mit kräuterangereichertem Dampf zur Tiefenentspannung."
+      },
+      "OngoingWellness": {
+        "title": "Kontinuierliches Wohlbefinden.",
+        "desc": "Ayurveda ist mehr als Behandlungen – es ist eine Lebensweise."
+      }
+    },
+    "ImageAlt": "AIDA Ayurveda Behandlung",
+    "BrandShort": "AIDA Ayurveda"
+  },
+  "YogaPage": {
+    "HeadingTitle": "Yoga | AIDA Ayurveda Resort & Spa",
+    "HeadingDescription": "AIDA Ayurveda, Ihr ruhiger Rückzugsort am Bentota River, Sri Lanka. Tauchen Sie in die alten Heiltraditionen des Ayurveda ein und genießen Sie luxuriöse Unterkünfte, die Wohlbefinden mit Komfort verbinden. Wir bieten einen ganzheitlichen Ansatz zur Verjüngung durch personalisierte Behandlungen, biologische Ernährung und geistige Balance – eingebettet in die natürliche Schönheit von Bentota.",
+    "HeadingKeywords": "Ayurvedisches Resort, Ayurvedisches Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+    "HeroTitle": "YOGA",
+    "HeroDescription": "Bei AIDA Ayurveda glauben wir an die Harmonie von Körper, Geist und Seele. Unsere von Expertinnen und Experten geleiteten Yoga-Sitzungen ergänzen die ayurvedischen Therapien und bieten Ihnen einen Weg zu körperlichem Wohlbefinden und geistiger Klarheit. Inmitten beruhigender Naturgeräusche und mit Blick auf den Bentota River führt Sie jeder Atemzug näher zu Balance und Frieden. Ob Anfänger oder Fortgeschritten, unsere Programme inspirieren und zentrieren.",
+    "HeroButtonText": "Kontakt",
+    "AboutYogaTitle": "Über Yoga",
+    "AboutYogaDescription": "Yoga ist eine jahrtausendealte Praxis aus Indien. Es ist eine ganzheitliche Disziplin, die Körperhaltungen (Asanas), Atemtechniken (Pranayama), Meditation und ethische Prinzipien verbindet, um umfassendes Wohlbefinden zu fördern. Das Wort „Yoga“ bedeutet auf Sanskrit „Vereinigung“ und steht für die Verbindung von Körper, Geist und Seele. Yoga verbessert Kraft, Flexibilität und Balance und fördert mentale Klarheit sowie emotionale Stabilität. Es ist bekannt für zahlreiche gesundheitliche Vorteile, darunter Stressreduktion, bessere Konzentration und mehr Vitalität. Bei AIDA Ayurveda integrieren wir Yoga in unsere Programme, um ayurvedische Behandlungen zu ergänzen und einen ausgewogenen Lebensstil zu unterstützen.",
+    "AboutYogaButtonText": "Jetzt buchen",
+    "AboutBoxOneTitle": "Yoga für Stressabbau",
+    "AboutBoxTwoTitle": "Yoga für Flexibilität",
+    "AboutBoxThreeTitle": "Yoga für Kraft",
+    "YogaInfoTitle": "Yoga bei AIDA Ayurveda",
+    "YogaInfoDescription": "Bei AIDA Ayurveda bieten wir ein umfassendes Yoga-Programm, das Ihre Wellness-Reise unterstützt. Unsere Sitzungen eignen sich für alle Erfahrungsstufen. Ob Sie Flexibilität verbessern, Kraft aufbauen oder innere Ruhe finden möchten – unsere Expertinnen und Experten führen Sie durch verschiedene Stile und Techniken. In der friedlichen Umgebung von AIDA Ayurveda, umgeben von Natur und Ruhe, finden Sie ideale Bedingungen für tiefe Entspannung und Erneuerung.",
+    "YogaInfoButtonText": "Kontakt"
+  },
+  "YogaInfo": {
+    "TypesTitle": "Yoga-Arten",
+    "TypesIntro": "Wir bieten verschiedene Yoga-Arten an, zugeschnitten auf unterschiedliche Erfahrungsstufen und Gesundheitsbedürfnisse:",
+    "TypesItems": {
+      "Hatha": {
+        "title": "Hatha Yoga.",
+        "desc": "Sanfte Form mit grundlegenden Haltungen und Atemübungen – fördert Kraft, Flexibilität und Balance."
+      },
+      "Vinyasa": {
+        "title": "Vinyasa Flow.",
+        "desc": "Dynamischer Stil, der Atmung und Bewegung verbindet – ideal zur Steigerung von Energie und Ausdauer."
+      },
+      "Restorative": {
+        "title": "Restorative Yoga.",
+        "desc": "Tief entspannende Praxis mit Hilfsmitteln zur Unterstützung sanfter Posen – für Regeneration und Stressabbau."
+      },
+      "Pranayama": {
+        "title": "Pranayama.",
+        "desc": "Gelenkte Atmung zur Beruhigung des Geistes, Balance des Nervensystems und Stärkung des Wohlbefindens."
+      },
+      "Meditation": {
+        "title": "Meditation.",
+        "desc": "Achtsamkeitsübungen, die Ihre Wellness-Reise bei AIDA Ayurveda harmonisieren."
+      }
+    },
+    "BenefitsTitle": "Vorteile von Yoga",
+    "BenefitsIntro": "Yoga bietet eine Vielzahl körperlicher, mentaler und emotionaler Vorteile. Bei AIDA Ayurveda wird Yoga integriert, um die Wirkung ayurvedischer Behandlungen zu verstärken. Wichtige Vorteile sind:",
+    "BenefitsList": {
+      "ImprovedFlexibility": "Verbesserte Flexibilität",
+      "StrengthBalance": "Kraft und Balance",
+      "StressReduction": "Stressreduktion",
+      "EnhancedBreathControl": "Verbesserte Atmung",
+      "HolisticHealing": "Ganzheitliche Heilung"
+    },
+    "HowTitle": "So starten Sie mit Yoga bei AIDA Ayurveda",
+    "HowIntro": "Der Beginn Ihrer Yoga-Reise bei AIDA Ayurveda ist sanft und bewusst – für alle Erfahrungsstufen geeignet. So geht’s:",
+    "Steps": {
+      "Consultation": {
+        "title": "Beratung.",
+        "desc": "Ihre Reise beginnt mit einer persönlichen Beratung zu Fitnesslevel, gesundheitlichen Bedingungen und Zielen."
+      },
+      "PersonalizedPractice": {
+        "title": "Individuelle Praxis.",
+        "desc": "Basierend auf Ihren Bedürfnissen erstellen wir einen persönlichen Yoga-Plan mit passenden Stilen und Intensitäten."
+      },
+      "DailyYoga": {
+        "title": "Tägliches Yoga.",
+        "desc": "Nehmen Sie an geleiteten Sitzungen teil, um beständig zu üben und sicher Fortschritte zu machen."
+      },
+      "HerbalSteamTherapy": {
+        "title": "Kräuterdampfbad.",
+        "desc": "Ergänzen Sie Ihre Praxis mit einem wohltuenden Kräuterdampf für tiefere Entspannung."
+      },
+      "OngoingPractice": {
+        "title": "Dranbleiben.",
+        "desc": "Führen Sie Ihre Routine mit Tipps und Übungen für langfristiges Wohlbefinden fort."
+      }
+    },
+    "ImageAlt": "Yoga bei AIDA Ayurveda"
+  },
+  "AccommodationPage": {
+    "HeadingTitle": "Unterkunft | AIDA Ayurveda Resort & Spa",
+    "HeadingDescription": "Erleben Sie die perfekte Verbindung aus traditioneller ayurvedischer Heilkunst und modernem Luxus im AIDA Ayurveda Resort & Spa. Unsere Unterkünfte bieten eine ruhige, komfortable Umgebung, die Ihre Wellness-Reise ergänzt – mit natürlichen Materialien, beruhigenden Farben und Blick auf den Bentota River oder unsere Gärten.",
+    "HeadingKeywords": "Ayurvedisches Resort, Ayurvedisches Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+    "HeroTitle": "Unterkunft",
+    "HeroDescription": "Unsere Zimmer und Suiten sind mit allem ausgestattet, was Sie für einen erholsamen Aufenthalt benötigen – Klimaanlage, WLAN und luxuriöse Bäder mit ayurvedischen Pflegeprodukten. Ob gemütliches Zimmer oder geräumige Suite: Hier finden Sie einen friedlichen Rückzugsort nach Behandlungen und Yoga.",
+    "HeroButtonText": "Kontakt"
+  },
+  "AccommodationGrid": {
+    "IconAlt": "Ayurveda-Symbol",
+    "Title": "Übernachten Sie bei uns",
+    "Intro": "Avinya Ayurveda by Aida, Bentota ist eine 32-Zimmer-Ayurveda-Wellnesseinrichtung. Direkt am berühmten Bentota-Flussufer gelegen, bietet das Resort einen spektakulären Gartenflügel und Zimmer mit Flussblick. Die Flusszimmer faszinieren mit dem Wasser – an klaren Tagen ist sogar die Silhouette des 150 km entfernten Adams Peak sichtbar. Die Zimmer im Gartenflügel liegen inmitten von zwei Hektar Landschaftsgrün und haben kurzen Weg zur Ayurveda-Einrichtung.",
+    "Common": {
+      "BookNow": "Jetzt buchen",
+      "KnowMore": "Mehr erfahren",
+      "PrivateBathroomTitle": "In Ihrem privaten Badezimmer:",
+      "FacilitiesTitle": "Ausstattung:",
+      "PrivateBathroomList": [
+        "Kostenfreie Pflegeprodukte",
+        "Whirlpool/Badewanne",
+        "WC",
+        "Badewanne oder Dusche"
+      ],
+      "ComfyBedsScore": "Bequeme Betten, 10 – Basierend auf 5 Bewertungen",
+      "FeatureLabels": {
+        "SizeUnit": "m²",
+        "Balcony": "Balkon",
+        "Garden": "Garten",
+        "AC": "Klimaanlage",
+        "Bath": "Bad",
+        "Pool": "Pool",
+        "PoolView": "Poolblick"
+      }
+    },
+    "Rooms": {
+      "SakuraSuite": {
+        "Title": "Sakura Suite Zimmer mit Vollpension und ayurvedischen Behandlungen",
+        "BedInfo": "1 extragroßes Bett",
+        "SizeValue": "25",
+        "SizeLabel": "Größe – 25 m²",
+        "Description": "Dieses Zimmer verfügt über ein eigenes Bad.",
+        "FacilitiesList": [
+          "Schreibtisch",
+          "Kühlschrank",
+          "Bettwäsche",
+          "Safe",
+          "Fliesen-/Marmorboden",
+          "Handtücher",
+          "Kleiderschrank",
+          "Sitzbereich",
+          "Steckdose in Bettnähe",
+          "Kleiderständer"
+        ]
+      },
+      "DeluxeDouble": {
+        "Title": "Deluxe Doppelzimmer mit Vollpension und ayurvedischen Behandlungen",
+        "BedInfo": "1 extragroßes Bett",
+        "SizeValue": "25",
+        "SizeLabel": "Größe – 25 m²",
+        "Description": "Das Doppelzimmer verfügt über Klimaanlage, einen Kleiderschrank, eine Terrasse mit Gartenblick sowie ein eigenes Bad mit Badewanne. Das Zimmer hat 1 Bett.",
+        "FacilitiesList": [
+          "Schreibtisch",
+          "Kühlschrank",
+          "Bettwäsche",
+          "Safe",
+          "Fliesen-/Marmorboden",
+          "Handtücher",
+          "Kleiderschrank",
+          "Sitzbereich",
+          "Steckdose in Bettnähe",
+          "Kleiderständer"
+        ]
+      },
+      "PrivateVilla": {
+        "Title": "Privatvilla mit Vollpension und ayurvedischen Behandlungen",
+        "BedInfo": "1 extragroßes Bett",
+        "SizeValue": "30",
+        "SizeLabel": "Größe – 30 m²",
+        "Description": "Diese Villa umfasst 1 Wohnzimmer, 2 separate Schlafzimmer und 2 Bäder mit Dusche und kostenfreien Pflegeprodukten. Die Villa ist klimatisiert und verfügt über Tee-/Kaffeezubehör, einen Kleiderschrank und Gartenblick. Insgesamt 3 Betten.",
+        "FacilitiesList": [
+          "Schreibtisch",
+          "Kühlschrank",
+          "Bettwäsche",
+          "Safe",
+          "Fliesen-/Marmorboden",
+          "Tee-/Kaffeezubereiter",
+          "Kleiderschrank",
+          "Sitzbereich",
+          "Steckdose in Bettnähe",
+          "Kleiderständer"
+        ],
+        "UsePoolViewLabel": true
+      }
+    }
+  },
+  "BlogPage": {
+    "HeadingTitle": "Blog | AIDA Ayurveda Resort & Spa",
+    "HeadingDescription": "Bleiben Sie auf dem Laufenden mit Neuigkeiten, Tipps und Einblicken zu Ayurveda, Wellness und ganzheitlichem Leben vom AIDA Ayurveda Resort & Spa. Unser Blog ist Ihre Anlaufstelle für Gesundheit und Wohlbefinden.",
+    "HeadingKeywords": "Ayurvedisches Resort, Ayurvedisches Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+    "HeroTitle": "Unser Blog",
+    "HeroDescription": "Aktuelle Beiträge zu Ayurveda, Wellness und holistischem Leben – von unserem Expertenteam zusammengestellt.",
+    "HeroButtonText": "Kontakt"
+  },
+  "GalleryPage": {
+    "HeadingTitle": "Galerie | AIDA Ayurveda Resort & Spa",
+    "HeadingDescription": "Entdecken Sie die ruhige Schönheit und Atmosphäre des AIDA Ayurveda Resort & Spa in unserer Galerie. Erleben Sie die perfekte Verbindung traditioneller ayurvedischer Heilkunst mit modernem Luxus.",
+    "HeadingKeywords": "Ayurvedisches Resort, Ayurvedisches Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+    "HeroTitle": "Galerie",
+    "HeroDescription": "Einblicke in unser Resort, Ayurveda-Anwendungen, Yoga und Natur – für Ihre Vorfreude auf den Aufenthalt.",
+    "HeroButtonText": "Jetzt buchen"
+  },
+  "ContactUsPage": {
+    "HeadingTitle": "Kontakt | AIDA Ayurveda Resort & Spa",
+    "HeadingDescription": "Wir freuen uns auf Ihre Nachricht. Ob Fragen zu Behandlungen, Unterkünften oder Programmen – unser Team hilft gern.",
+    "HeadingKeywords": "Ayurvedisches Resort, Ayurvedisches Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+    "HeroTitle": "Kontakt",
+    "HeroDescription": "Kontaktieren Sie uns per Telefon, E-Mail oder über das Formular. Wir melden uns zeitnah zurück und begleiten Sie gern auf Ihrer Reise zu ganzheitlichem Wohlbefinden.",
+    "HeroButtonText": "Buchungsanfrage"
+  },
+  "ContactUsForm": {
+    "sendUsMessage": "Senden Sie uns eine Nachricht",
+    "helpText": "Fragen zu Ihrer Reservierung oder unseren Annehmlichkeiten? Wir helfen gern.",
+    "nameLabel": "Name (Vor- & Nachname)",
+    "namePlaceholder": "Geben Sie Ihren Namen ein",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail ein",
+    "phoneLabel": "Telefonnummer",
+    "phonePlaceholder": "Geben Sie Ihre Telefon- oder WhatsApp-Nummer ein",
+    "subjectLabel": "Betreff",
+    "subjectPlaceholder": "Reservierungsanfrage",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Bitte geben Sie Details zu Ihrer Anfrage an...",
+    "sending": "Senden...",
+    "sendMessage": "Nachricht senden",
+    "captchaError": "Bitte schließen Sie das CAPTCHA ab.",
+    "emailSuccess": "Nachricht erfolgreich gesendet!",
+    "emailFail": "Senden fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "emailError": "Beim Senden ist ein Fehler aufgetreten.",
+    "formRefError": "Formularreferenz ist nicht verfügbar.",
+    "publicKeyError": "EmailJS Public Key fehlt. Bitte prüfen Sie Ihre Umgebungsvariablen."
+  },
+  "ContactUsInfo": {
+    "hotelInformation": "Hotelinformationen",
+    "addressLabel": "Adresse",
+    "addressValue": "12/A, Mangala Mawatha, Bentota, Sri Lanka",
+    "phoneLabel": "Telefon",
+    "phoneValue": "+94 77 005 1034",
+    "phoneAvailable": "Rund um die Uhr für Reservierungen und Anfragen erreichbar",
+    "emailLabel": "E-Mail",
+    "emailValue": "Aidaayurvedabentota@gmail.com",
+    "emailResponse": "Wir antworten innerhalb von 24 Stunden",
+    "checkinoutTitle": "Check-in & Check-out",
+    "checkin": "Check-in: 14:00",
+    "checkout": "Check-out: 12:00",
+    "parkingTitle": "Parken",
+    "parkingAvailable": "Parkservice verfügbar",
+    "conciergeTitle": "Sicherheit & Concierge",
+    "conciergeAvailable": "CCTV-Sicherheit 24/7",
+    "conciergeLocation": "Im Hauptlobbybereich"
+  },
+  "ThankYouPage": {
+    "HeadingTitle": "Danke | AIDA Ayurveda Resort & Spa",
+    "HeadingMainDescription": "AIDA Ayurveda, Ihr ruhiger Rückzugsort am Bentota River, Sri Lanka. Danke für Ihre Kontaktaufnahme – wir melden uns in Kürze.",
+    "HeadingKeywords": "Ayurvedisches Resort, Ayurvedisches Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+    "ThankyouPageHeading": "Vielen Dank für Ihre Nachricht!",
+    "HeadingDescription": "Wir haben Ihre Nachricht erhalten und melden uns bald bei Ihnen. Wir freuen uns, Ihnen weiterzuhelfen und Sie hoffentlich bald bei uns begrüßen zu dürfen.",
+    "returnHome": "Zurück zur Startseite",
+    "title": "Vielen Dank!",
+    "successMessage": "Ihre Nachricht wurde erfolgreich gesendet.",
+    "appreciation": "Vielen Dank für Ihre Kontaktaufnahme. Wir prüfen Ihre Nachricht und melden uns innerhalb von 24–48 Stunden.",
+    "referenceId": "Referenz-ID",
+    "sendAnother": "Weitere Nachricht senden"
+  },
+  "ImageGridDes": {
+    "FlowerAlt": "Ayurveda-Symbol",
+    "Title": "Ayurveda erleben",
+    "Description": "Entdecken Sie Ayurveda – die drei Doshas, Panchakarma, Ernährung und Kräutertherapien.",
+    "ButtonText": "Kontakt",
+    "cards": {
+      "one": {
+        "title": "Die Drei-Dosha-Theorie",
+        "description": "Die ayurvedische Lehre beruht auf der Theorie, dass das Universum aus fünf Urelementen besteht: Erde, Luft, Feuer, Wasser und Äther. Diese Elemente bilden im Menschen drei biologische Kräfte, die Doshas Vata, Pitta und Kapha. Ayurveda heilt, indem es die Doshas in ihr ursprüngliches Gleichgewicht zurückführt – so klingen Symptome ab und verschwinden."
+      },
+      "two": {
+        "title": "Panchakarma",
+        "description": "Panchakarma bedeutet ‚fünf Behandlungen‘ und dient der Reinigung des gesamten Körpers durch Ausleitung angesammelter Toxine. Die effektive Entgiftung entlastet den Organismus, unterstützt das Immunsystem und fördert Heilung."
+      },
+      "three": {
+        "title": "Ayurvedische Ernährung",
+        "description": "Ayurveda – das 5000 Jahre alte Medizinsystem Indiens – sieht mangelhafte Ernährung als Hauptursache von Krankheit. Nahrung wird genutzt, um zu heilen und vorzubeugen. Im Gegensatz zu Einheitsansätzen berücksichtigt Ayurveda die Individualität des Stoffwechsels."
+      },
+      "four": {
+        "title": "Drasvasveda Kräuterbad",
+        "description": "Kräuterblätter und -wurzeln werden abgekocht; das Wasser wird während eines warmen Kräuterbades über den Körper gegossen. Die verwendeten Kräuter haben heilende Eigenschaften."
+      }
+    }
+  },
+  "PrivacyPolicyPage": {
+    "HeadingTitle": "Datenschutzerklärung | AIDA Ayurveda Resort & Spa",
+    "HeadingDescription": "AIDA Ayurveda – Ihr ruhiger Rückzugsort in Bentota. Erfahren Sie, wie wir Ihre Daten schützen und verwenden.",
+    "HeadingKeywords": "Ayurvedisches Resort, Datenschutz, AIDA, Bentota, Sri Lanka"
+  },
+  "CookiePolicyPage": {
+    "HeadingTitle": "Cookie-Richtlinie | AIDA Ayurveda Resort & Spa",
+    "HeadingDescription": "Informationen darüber, wie wir Cookies einsetzen, um Ihr Nutzererlebnis zu verbessern.",
+    "HeadingKeywords": "Ayurvedisches Resort, Cookies, AIDA, Bentota, Sri Lanka"
+  }
+}
