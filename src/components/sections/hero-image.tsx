@@ -24,7 +24,7 @@ const HeroImage = ({
         <div className="relative w-full h-full">
           <Image
             src={imageUrl}
-            alt="Village Headman's Bungalow"
+            alt="AIDA Ayurveda"
             className=" w-full h-full object-cover"
             width={1400}
             height={800}

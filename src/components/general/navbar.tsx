@@ -99,6 +99,7 @@ export default function NavBar() {
         { name: "Ayurveda", href: "/aida-ayurveda" },
         { name: "YOGA", href: "/aida-yoga" },
         { name: t("Accommodation"), href: "/accommodation" },
+        { name: t("ThingsTodo"), href: "/experience" },
       ],
     },
     { name: t("Gallery"), href: "/gallery" },
