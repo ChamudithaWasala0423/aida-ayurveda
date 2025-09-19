@@ -5,8 +5,6 @@ import Image from "next/image";
 import MaxWidthWrapper from "../general/MaxWidthWrapper";
 import { useTranslations } from "next-intl";
 
-
-
 type CardProps = { title: string; description: string };
 
 const ImageGridDes = () => {
@@ -109,3 +107,4 @@ const SkeletonCard = ({ title, description }: CardProps) => {
 };
 
 export default ImageGridDes;
+     

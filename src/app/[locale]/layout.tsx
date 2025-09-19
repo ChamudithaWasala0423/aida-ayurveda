@@ -7,7 +7,10 @@ import ScrollToTop from "@/components/general/ScrollToTop";
 import NavBar from "@/components/general/navbar";
 import ScrollBookNow from "@/components/general/ScrollBookNow";
 import Footer from "@/components/general/Footer";
-
+import { Toaster } from "@/components/ui/sonner";
+import TermlyCMP from "@/components/general/TermlyCMP";
+import { CookieIcon } from "lucide-react";
+import WhatsAppLive from "@/components/general/WhatsAppLive";
 
 
 const monserrat = Montserrat({
@@ -36,10 +39,29 @@ export default async function LocaleLayout({
       <body className={`${monserrat.className} ${lora.variable} antialiased`}>
         <ScrollToTop />
         <NextIntlClientProvider>
+          <TermlyCMP
+            websiteUUID={process.env.NEXT_PUBLIC_WEBSITE_UUID}
+            autoBlock={undefined}
+            masterConsentsOrigin={undefined}
+          />
+          <Toaster />
           <NavBar />
           <ScrollBookNow />
           {children}
+          <div
+            style={{
+              position: "fixed",
+              bottom: "0",
+              left: "1.5rem",
+              zIndex: 50,
+            }}
+          >
+            <a href="#" className="termly-display-preferences px-3 py-1">
+              <CookieIcon className="mr-1 text-orange-500 " size={35} />
+            </a>
+          </div>
           <Footer />
+          <WhatsAppLive />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -39,7 +39,7 @@ const galleryImages: GalleryImage[] = [
   },
   {
     id: 4,
-    src: "https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758128795/Avinya-Ayurveda-Bentota-Rooms-2_q8xmnu.jpg",
+    src: "https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758115623/Avinya-Ayurveda-7-1-2048x1464_swznke.jpg",
     alt: "Modern architecture photography",
     width: 500,
     height: 800,

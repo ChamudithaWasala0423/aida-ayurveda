@@ -1,3 +1,4 @@
+'use client';
 import Heading from "@/components/general/Heading";
 import ImageDescriptionRight from "@/components/sections/Image-description-right";
 import AboutImageGrid from "@/components/sections/about-image-grid";
@@ -10,9 +11,30 @@ import RightImageDescription from "@/components/sections/right-image-description
 import { GallerySection } from "@/components/sections/gallery-section";
 import SocialCarousel from "@/components/sections/social-carousel";
 import CenterTitle from "@/components/sections/centerTitle";
+import { useEffect, useState } from "react";
+import type { PopupBannerData } from "@/components/general/pop-up-banner"; 
+import { getPopupBanner } from "../../../sanity/sanity.query";
+import PopupBanner from "@/components/general/pop-up-banner";
+
 
 export default function Home() {
   const t = useTranslations("HomePage");
+   const [showPopup, setShowPopup] = useState(false);
+  const [bannerData, setBannerData] = useState<PopupBannerData | null>(null);
+
+  useEffect(() => {
+    // Fetch banner data immediately
+    getPopupBanner().then((data) => {
+      setBannerData(data);
+    });
+
+    // Show popup after delay
+    const timer = setTimeout(() => {
+      setShowPopup(true);
+    }, 1500);
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <>
       <Heading
@@ -72,6 +94,7 @@ export default function Home() {
         <GallerySection />
       </div>
       <SocialCarousel />
+        {showPopup && bannerData && <PopupBanner onClose={() => setShowPopup(false)} banner={bannerData} />}
     </>
   );
 }

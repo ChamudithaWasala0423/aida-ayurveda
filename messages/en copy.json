@@ -293,7 +293,7 @@
             "ImprovedFlexibility": "Improved Flexibility",
             "StrengthBalance": "Strength and Balance",
             "StressReduction": "Stress Reduction",
-            "EnhancedBreathControl": "Enhanced Breath",
+            "EnhancedBreathControl": "Enhanced Breath Control",
             "HolisticHealing": "Holistic Healing"
         },
         "HowTitle": "How to Start Yoga at AIDA Ayurveda",
@@ -483,9 +483,6 @@
         "conciergeLocation": "Located in the main lobby"
     },
     "ThankYouPage": {
-        "HeadingTitle": "Thank You | AIDA Ayurveda Resort & Spa",
-        "HeadingMainDescription": "AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
-        "HeadingKeywords": "Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
         "ThankyouPageHeading": "Thank You for Contacting Us!",
         "HeadingDescription": "We appreciate you reaching out to AIDA Ayurveda. Your message has been received, and our team will get back to you shortly. We look forward to assisting you with your inquiry and hope to welcome you to our  hotel soon.",
         "returnHome": "Back to Home",
@@ -494,39 +491,5 @@
         "appreciation": "We appreciate you contacting us. Our team will review your message and get back to you within 24-48 hours.",
         "referenceId": "Reference ID",
         "sendAnother": "Send Another Message"
-    },
-    "ImageGridDes": {
-        "FlowerAlt": "ayurvedic icon",
-        "Title": "Experience Ayurveda",
-        "Description": "Discover Ayurveda through the three doshas, Panchakarma, nutrition, and herbal therapies.",
-        "ButtonText": "Contact Us",
-        "cards": {
-            "one": {
-                "title": "Three Dosha Theory",
-                "description": "The science of Ayurveda discipline on a theory that universe is made of five primordial elements or 'Butha's, namely earth, air, fire, water and ether. These elements themselves are life-less, but in combination, produce three main biological forces or doshas in the human body, called Vaata, Pitta, and Kapha. Ayurveda heals us by bringing back into balance of the doshas according to our balance at our birth then symptoms of dis-eased are reversed and disappeared."
-            },
-            "two": {
-                "title": "Panchakarma",
-                "description": "Panchakarma, simply means five treatments; is meant to purify the whole body by eliminating the accumulated toxins from it. An accumulation of toxins will overtax the body's ability to release impurities, weakening the system and creating impairing mental function. Panchakarma effectively stimulates the body's release of toxins which supports the immune system and healing."
-            },
-            "three": {
-                "title": "Ayurveda Nutrition",
-                "description": "Ayurveda, the 5000-year-old medical system of India, states that poor nutrition is the main cause of disease. This system uses food to heal and prevent illness. The primary problem with other nutritional approaches is that they are not orientated towards the individual using them. Modern nutrition uses a ‘one size fits all’ approach to people of all different sizes, shapes and cultures. Modern biochemical research from as early as the 1950’s has shown that each person’s metabolism functions differently."
-            },
-            "four": {
-                "title": "Drasvasveda Herbal Bath",
-                "description": "Herbal leaves and roots are boiled and the water is poured onto your body while you sit in a warm herbal bath. Herbs used in preparing the bathwater have healing properties."
-            }
-        }
-    },
-    "PrivacyPolicyPage": {
-        "HeadingTitle": "Privacy Policy | AIDA Ayurveda Resort & Spa",
-        "HeadingDescription": "AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
-        "HeadingKeywords": "Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka"
-    },
-    "CookiePolicyPage":{
-        "HeadingTitle": "Cookie Policy | AIDA Ayurveda Resort & Spa",
-        "HeadingDescription": "AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
-        "HeadingKeywords": "Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka"
     }
 }

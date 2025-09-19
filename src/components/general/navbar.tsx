@@ -27,7 +27,7 @@ export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const t = useTranslations("Navigation");
   const local: string = useLocale();
-  const [showSticky, setShowSticky] = useState(false); 
+  const [showSticky, setShowSticky] = useState(false);
 
   const onselectionchange = (locale: string) => {
     const currentPath = window.location.pathname.split("/").slice(2).join("/");
@@ -101,8 +101,8 @@ export default function NavBar() {
         { name: t("Accommodation"), href: "/accommodation" },
       ],
     },
-    { name: t("Blog"), href: "/blog" },
     { name: t("Gallery"), href: "/gallery" },
+    { name: t("Blog"), href: "/blog" },
     { name: t("contact"), href: "/contact" },
   ];
 
@@ -294,7 +294,6 @@ export default function NavBar() {
             </Button>
           </Link>
         </div>
-        
       </div>
 
       {/* Desktop nav with centered logo and items around */}
@@ -345,7 +344,7 @@ export default function NavBar() {
               })}
             </NavigationMenuList>
           </NavigationMenu>
-    {/* Right items */}
+          {/* Right items */}
           <NavigationMenu viewport={false}>
             <NavigationMenuList className="flex space-x-6">
               {rightItems.map((item) => {

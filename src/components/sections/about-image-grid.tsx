@@ -58,7 +58,7 @@ const AboutImageGrid = ({
             </Link>
           </div>
           <div className="grid grid-cols-1 rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none lg:rounded-tr-none xl:rounded-tr-none  xl:grid-cols-3 gap-4">
-            <div className="relative h-[600px] bg-slate-100 rounded-bl-3xl rounded-tr-3xl md:rounded-bl-3xl lg:rounded-bl-3xl xl:rounded-bl-3xl">
+            <div className="relative h-[550px] bg-slate-100 rounded-bl-3xl rounded-tr-3xl md:rounded-bl-3xl lg:rounded-bl-3xl xl:rounded-bl-3xl">
               <Image
                 src={imageUrlOne}
                 alt="image-1"
@@ -78,7 +78,7 @@ const AboutImageGrid = ({
                 </div>
               </div>
             </div>
-            <div className="relative h-[600px] bg-slate-100 rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none lg:rounded-tr-none xl:rounded-tr-none md:rounded-bl-3xl  lg:rounded-bl-3xl xl:rounded-bl-3xl">
+            <div className="relative h-[550px] bg-slate-100 rounded-bl-3xl rounded-tr-3xl md:rounded-tr-none lg:rounded-tr-none xl:rounded-tr-none md:rounded-bl-3xl  lg:rounded-bl-3xl xl:rounded-bl-3xl">
               <Image
                 src={imageUrlTwo}
                 alt="image-1"
@@ -98,7 +98,7 @@ const AboutImageGrid = ({
                 </div>
               </div>
             </div>
-            <div className="relative h-[600px] bg-slate-100 rounded-tr-3xl ">
+            <div className="relative h-[550px] bg-slate-100 rounded-tr-3xl ">
               <Image
                 src={imageUrlThree}
                 alt="image-1"

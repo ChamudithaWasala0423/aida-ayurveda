@@ -87,7 +87,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/aida-hotel-induruwa">
+                  <Link href="/">
                     <p className="hover:text-orange-600">
                       {t("Links.AidaHotelInduruwa")}
                     </p>
@@ -124,6 +124,16 @@ const Footer = () => {
                 <li>
                   <Link href="/blog">
                     <p className="hover:text-orange-600">{t("Links.Blog")}</p>
+                  </Link>
+                </li>
+                   <li>
+                  <Link href="/privacy-policy">
+                    <p className="hover:text-orange-600">{t("Links.PrivacyPolicy")}</p>
+                  </Link>
+                </li>
+                   <li>
+                  <Link href="/cookie-policy">
+                    <p className="hover:text-orange-600">{t("Links.CookiePolicy")}</p>
                   </Link>
                 </li>
               </ul>
