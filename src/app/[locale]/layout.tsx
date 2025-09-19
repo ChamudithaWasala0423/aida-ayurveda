@@ -85,9 +85,8 @@ export default async function LocaleLayout({
   }
   return (
     <html lang={locale}>
-      <body className={`${monserrat.className} ${lora.variable} antialiased`}>
-        <head>
-            <Script
+      <head>
+        <Script
           id="gtm-script"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -100,25 +99,35 @@ export default async function LocaleLayout({
             `,
           }}
         />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-function loadScript(a){
-  var b=document.getElementsByTagName("head")[0],
-      c=document.createElement("script");
-  c.type="text/javascript",
-  c.src="https://tracker.metricool.com/resources/be.js",
-  c.onreadystatechange=a,
-  c.onload=a,
-  b.appendChild(c)
-}
-loadScript(function(){
-  beTracker.t({hash:"5a89330ce1204ead28da0df4142e3ace"})
-});
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                  function loadScript(a){
+                    var b=document.getElementsByTagName("head")[0],
+                        c=document.createElement("script");
+                    c.type="text/javascript",
+                    c.src="https://tracker.metricool.com/resources/be.js",
+                    c.onreadystatechange=a,
+                    c.onload=a,
+                    b.appendChild(c)
+                  }
+                  loadScript(function(){
+                    beTracker.t({hash:"5a89330ce1204ead28da0df4142e3ace"})
+                  });
             `,
-            }}
-          />
-        </head>
+          }}
+        />
+      </head>
+      <body className={`${monserrat.className} ${lora.variable} antialiased`}>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-N4CCGXFP"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+
         <Script
           id="org-jsonld"
           type="application/ld+json"
