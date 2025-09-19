@@ -414,5 +414,21 @@
                 "UsePoolViewLabel": true
             }
         }
+    },
+    "BlogPage": {
+        "HeadingTitle": "Blog | AIDA Ayurveda Resort & Spa",
+        "HeadingDescription": "AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
+        "HeadingKeywords": "Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+        "HeroTitle": "Our Blog",
+        "HeroDescription": "Stay updated with the latest news, tips, and insights on Ayurveda, wellness, and holistic living from AIDA Ayurveda Resort & Spa. Our blog is your go-to resource for everything related to health and well-being.",
+        "HeroButtonText": "Contact Us"
+    },
+    "GalleryPage": {
+        "HeadingTitle": "Gallery | AIDA Ayurveda Resort & Spa",
+        "HeadingDescription": "AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
+        "HeadingKeywords": "Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
+        "HeroTitle": "Gallery",
+        "HeroDescription": "Explore the serene beauty and tranquil ambiance of AIDA Ayurveda Resort & Spa through our gallery. Discover the perfect blend of traditional Ayurvedic healing and modern luxury in every corner of our resort.",
+        "HeroButtonText": "Book Now"
     }
 }
