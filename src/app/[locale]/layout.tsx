@@ -50,7 +50,7 @@ export async function generateMetadata({
         "Experience authentic Ayurveda treatments, yoga, and wellness by the beach at Aida Ayurveda & Hotel in Sri Lanka.",
       images: [
         {
-          url: "/icon/social.png",
+          url: "/icon/aida-hotel-logo.png",
           width: 1200,
           height: 630,
           alt: `${BRAND} social image`,
@@ -62,7 +62,7 @@ export async function generateMetadata({
       title: `${BRAND} | Authentic Ayurveda in Sri Lanka`,
       description:
         "Experience authentic Ayurveda treatments, yoga, and wellness by the beach at Aida Ayurveda & Hotel in Sri Lanka.",
-      images: ["/icon/social.png"],
+      images: ["/icon/aida-hotel-logo.png"],
     },
     robots: {
       index: true,
