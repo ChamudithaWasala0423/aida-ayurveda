@@ -32,11 +32,11 @@ const BookingBar = () => {
             {t("Tagline")}
           </p>
         </div>
-        <div className="hidden lg:flex flex-col md:flex-row bg-white w-full xl:w-[70%] h-auto md:h-20 rounded-tr-3xl rounded-bl-3xl mt-2 shadow-lg">
+        <div className="hidden lg:flex flex-col md:flex-row bg-white w-full xl:w-[80%] 2xl:w-[70%] h-auto md:h-20 rounded-tr-3xl rounded-bl-3xl mt-2 shadow-lg">
           <div className="flex flex-col md:flex-row items-center justify-between w-full">
             <div className="flex items-center justify-center h-20 p-4">
               <Select>
-                <SelectTrigger className="w-full md:w-[200px]">
+                <SelectTrigger className="md:w-[120px] xl:w-[200px]">
                   <SelectValue placeholder={t("SelectRoomPlaceholder")} />
                 </SelectTrigger>
                 <SelectContent>
@@ -72,7 +72,7 @@ const BookingBar = () => {
                 className="w-10 h-10 text-sm ml-2"
               />
             </div>
-            <div className="flex items-center justify-center bg-orange-500 w-full md:w-40 h-20 rounded-tr-3xl">
+            <div className="flex items-center justify-center bg-orange-500 w-full xl:w-40 h-20 rounded-tr-3xl">
               <button
                 className="text-sm font-medium text-white w-full h-full"
                 aria-label={t("BookNowAria")}

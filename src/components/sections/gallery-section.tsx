@@ -81,7 +81,7 @@ const galleryImages: GalleryImage[] = [
   },
   {
     id: 10,
-    src: "https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758128784/Avinya-Ayurveda-Bentota-Rooms-1_hfsxth.jpg",
+    src: "https://res.cloudinary.com/dy3lm6cvw/image/upload/v1758128791/Avinya-Ayurveda-Bentota-YOGA-4-2048x1359_im4noa.jpg",
     alt: "Wildlife photography in natural habitat",
     width: 600,
     height: 400,

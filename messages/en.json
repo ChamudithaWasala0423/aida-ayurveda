@@ -33,7 +33,7 @@
         "HeadingTitle": "AIDA Ayurveda Resort & Spa",
         "AboutHeadingTitle": "About | AIDA Ayurveda Resort & Spa",
         "HeadingDescription": "AIDA Ayurveda, your serene escape nestled along the tranquil Bentota River, Sri Lanka. Immerse yourself in the ancient healing traditions of Ayurveda while enjoying luxurious accommodations that blend wellness with comfort. At AIDA Ayurveda, we provide a holistic approach to rejuvenation through personalized treatments, organic nutrition, and spiritual balance, all set amidst the natural beauty of Bentota. Whether you seek relaxation or revitalization, our Ayurvedic retreat offers the perfect sanctuary to heal, refresh, and rediscover your inner peace.",
-        "AboyHomeTitle": "Best rated ayurvedic resort & spa",
+        "AboyHomeTitle": "Best rated ayurveda resort & spa",
         "AboutHomeDescription": "At AIDA Ayurveda Resort & Spa, the concept of wellness & healing is at the heart of everything we do. When the guest walk into our care, wellbeing of you becomes the primary concern. Tailor making our treatment solutions to match one’s requirement is what we do best and that made us a name synonymous with Wellness and Healing.",
         "AbotBoxOneTitle": "Rejuvenation - 3 Days",
         "AbotBoxTwoTitle": "Stress Relief - 7 Days",
@@ -43,9 +43,9 @@
         "HeadingKeywords": "Ayurvedic Resort, Ayurvedic Spa, AIDA, AIDA Gems, Bentota, Sri Lanka",
         "rightImageOneTitle": "Inspired by YOGA",
         "rightImageOneDescription": "At AIDA Ayurveda, we believe in the harmony of body, mind, and soul. Our yoga sessions, guided by expert instructors, complement our Ayurvedic therapies, offering you a path to physical wellness and mental clarity. Surrounded by the calming sounds of nature, practice yoga with a view of the Bentota River, where each breath draws you closer to balance and peace. Whether you are a beginner or an experienced practitioner, our yoga programs will leave you feeling inspired and centered.",
-        "rightImageTwoTitle": "Ayurvedic Treatments",
+        "rightImageTwoTitle": "Ayurvedia Treatments",
         "rightImageTwoDescription": "At AIDA Ayurveda, we offer a wide range of authentic Ayurvedic treatments, carefully designed to promote healing and well-being. Our treatments, including Abhyanga (full-body oil massage), Shirodhara (oil therapy for the head), Panchakarma (detoxification), and herbal steam baths, are customized to balance your doshas and restore harmony. Each treatment is performed by experienced therapists using natural herbs and oils, ensuring that your body and mind receive the utmost care. Step into a world of ancient healing and experience the transformative power of Ayurveda with us.",
-        "OffersTitle": "Get offers aida ayurvedic resort & spa",
+        "OffersTitle": "What we offer",
         "OffersDescription": "Discover the essence of traditional healing at AIDA Ayurveda, where centuries-old Ayurvedic wisdom meets modern luxury. Our team of skilled Ayurvedic doctors and therapists are dedicated to providing tailored treatments that restore balance and vitality. From detoxification and stress relief to anti-aging therapies, we offer a range of services to meet your individual needs. Whether you're here for a short visit or a complete Ayurvedic immersion, AIDA Ayurveda promises an experience that will leave you feeling rejuvenated and revitalized.",
         "OffersButtonText": "See More",
         "rightImageTwoButtonText": "Discover More",
@@ -56,31 +56,31 @@
     "OffersCarousel": {
         "items": {
             "relax": {
-                "category": "AIDA Ayurvedic Life",
+                "category": "AIDA Ayurvedia Life",
                 "title": "Relax"
             },
             "ayurvedic": {
-                "category": "AIDA Ayurvedic Life",
+                "category": "AIDA Ayurvedia Life",
                 "title": "Ayurvedic"
             },
             "yoga": {
-                "category": "AIDA Ayurvedic Life",
+                "category": "AIDA Ayurvedia Life",
                 "title": "YOGA"
             },
             "meditation": {
-                "category": "AIDA Ayurvedic Life",
+                "category": "AIDA Ayurvedia Life",
                 "title": "Meditation"
             },
             "stay": {
-                "category": "AIDA Ayurvedic Life",
+                "category": "AIDA Ayurvedia Life",
                 "title": "Stay"
             },
             "swimming": {
-                "category": "AIDA Ayurvedic Life",
+                "category": "AIDA Ayurvedia Life",
                 "title": "Swimming"
             },
             "enjoy": {
-                "category": "AIDA Ayurvedic Life",
+                "category": "AIDA Ayurvedia Life",
                 "title": "Enjoy"
             }
         }
@@ -471,7 +471,7 @@
         "phoneValue": "+94 77 005 1034",
         "phoneAvailable": "Available 24/7 for reservations and inquiries",
         "emailLabel": "Email",
-        "emailValue": "Aidaayurvedabentota@gmail.com",
+        "emailValue": "aida1@sltnet.lk",
         "emailResponse": "We'll respond within 24 hours",
         "checkinoutTitle": "Check-in & Check-out",
         "checkin": "Check-in: 2:00 PM",
