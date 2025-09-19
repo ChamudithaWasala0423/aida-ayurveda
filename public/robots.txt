@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.aidaayurveda.com/api/sitemap
+# Prefer Next.js native sitemap at /sitemap.xml
+Sitemap: https://www.aidaayurveda.com/sitemap.xml
