@@ -66,23 +66,33 @@ const GalleryMainPage = () => {
 
   // Function to navigate to the next image
   const nextImage = () => {
-    setSelectedIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    );
-    setSelectedImage(
-      images[selectedIndex === images.length - 1 ? 0 : selectedIndex + 1]
-    );
+    setSelectedIndex((prevIndex) => {
+      const newIndex = prevIndex === images.length - 1 ? 0 : prevIndex + 1;
+      setSelectedImage(images[newIndex]);
+      return newIndex;
+    });
   };
 
   // Function to navigate to the previous image
   const prevImage = () => {
-    setSelectedIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-    setSelectedImage(
-      images[selectedIndex === 0 ? images.length - 1 : selectedIndex - 1]
-    );
+    setSelectedIndex((prevIndex) => {
+      const newIndex = prevIndex === 0 ? images.length - 1 : prevIndex - 1;
+      setSelectedImage(images[newIndex]);
+      return newIndex;
+    });
   };
+
+  // Close with ESC and navigate with arrow keys when modal is open
+  useEffect(() => {
+    if (!modalOpen) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setModalOpen(false);
+      if (e.key === "ArrowRight") nextImage();
+      if (e.key === "ArrowLeft") prevImage();
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [modalOpen]);
 
   return (
     <div className="w-full flex-col flex items-center justify-center">
@@ -95,57 +105,71 @@ const GalleryMainPage = () => {
             All Collection
           </Button>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 flex-items-center justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 items-stretch">
           {isLoading ? (
-            <div className="flex items-center justify-center w-full h-96 col-span-2 md:col-span-3">
+            <div className="flex items-center justify-center w-full h-60 sm:h-80 col-span-1 sm:col-span-2 md:col-span-3">
               <Loader loading={isLoading}>Loading</Loader>
             </div>
           ) : error ? (
             <p>{error}</p>
           ) : (
             images.map((image, index) => (
-              <div
+              <button
                 key={image.imageUrl}
-                className="bg-white rounded-sm w-full h-80 overflow-hidden group"
+                type="button"
+                aria-label={`Open image ${index + 1}`}
+                className="relative bg-white rounded-sm w-full overflow-hidden group aspect-square focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-neutral-500"
                 onClick={() => handleImageClick(image, index)}
               >
                 <Image
                   src={image.imageUrl}
                   alt={image.type}
-                  width={500}
-                  height={500}
-                  layout="responsive"
-                  className="rounded-sm cursor-pointer object-cover transition-transform duration-300 ease-in-out transform group-hover:scale-110"
+                  fill
+                  sizes="(min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+                  className="object-cover rounded-sm cursor-pointer transition-transform duration-300 ease-in-out group-hover:scale-110"
                 />
-              </div>
+              </button>
             ))
           )}
         </div>
         {/* Modal for displaying enlarged image */}
         {modalOpen && selectedImage && (
-          <div className="fixed z-50 inset-0 overflow-y-auto bg-black bg-opacity-70 flex items-center justify-center">
-            <div className="relative mx-auto max-w-full mt-24">
+          <div
+            className="fixed z-50 inset-0 bg-black/70 flex items-center justify-center p-4"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Image preview"
+          >
+            <div className="relative w-full max-w-6xl">
               <button
                 onClick={() => setModalOpen(false)}
-                className="absolute top-0 right-0 m-4 text-white text-lg z-50 focus:outline-none"
+                aria-label="Close preview"
+                className="absolute top-0 right-0 m-2 sm:m-4 text-white text-lg z-50 focus:outline-none"
               >
                 <IoMdCloseCircle size={30} />
               </button>
-              <div className="flex justify-between mt-10">
-                <button onClick={prevImage} className=" p-4 m-4">
-                  <FaChevronCircleLeft color="white" size={30} />
+              <div className="relative w-full h-[60vh] sm:h-[70vh] md:h-[80vh] mt-8">
+                <button
+                  onClick={prevImage}
+                  aria-label="Previous image"
+                  className="absolute left-2 top-1/2 -translate-y-1/2 p-2 sm:p-3 z-10"
+                >
+                  <FaChevronCircleLeft color="white" size={36} />
                 </button>
-                <div>
-                  <Image
-                    src={selectedImage.imageUrl}
-                    alt={selectedImage.type}
-                    width={800}
-                    height={800}
-                    className="rounded-lg "
-                  />
-                </div>
-                <button onClick={nextImage} className=" p-4 m-4">
-                  <FaChevronCircleRight color="white" size={30} />
+                <Image
+                  src={selectedImage.imageUrl}
+                  alt={selectedImage.type}
+                  fill
+                  sizes="100vw"
+                  className="rounded-lg object-contain"
+                  priority
+                />
+                <button
+                  onClick={nextImage}
+                  aria-label="Next image"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 p-2 sm:p-3 z-10"
+                >
+                  <FaChevronCircleRight color="white" size={36} />
                 </button>
               </div>
             </div>
