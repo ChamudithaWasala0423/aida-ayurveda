@@ -18,18 +18,22 @@ export function DatePickerWithRange({
   className,
 }: React.HTMLAttributes<HTMLDivElement>) {
   const currentDate = new Date();
-
-  const nextMonthDate = new Date(currentDate);
-  nextMonthDate.setMonth(nextMonthDate.getMonth() + 1);
-
-  const [date, setDate] = React.useState<DateRange>({
+  // Control popover open/close to optionally close when range completed
+  const [open, setOpen] = React.useState(false);
+  // Default selection: today to 3 days later; users can still pick any custom range
+  const defaultTo = React.useMemo(() => {
+    const d = new Date(currentDate);
+    d.setDate(d.getDate() + 3);
+    return d;
+  }, [currentDate]);
+  const [date, setDate] = React.useState<DateRange | undefined>({
     from: currentDate,
-    to: nextMonthDate,
+    to: defaultTo,
   });
 
   return (
     <div className={cn("grid gap-2", className)}>
-      <Popover>
+      <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger asChild>
           <Button
             id="date"
@@ -58,9 +62,14 @@ export function DatePickerWithRange({
           <Calendar
             initialFocus
             mode="range"
-            defaultMonth={date?.from}
+            defaultMonth={date?.from ?? currentDate}
             selected={date}
-            onSelect={(range) => setDate(range ?? { from: currentDate, to: nextMonthDate })}
+            onSelect={(range) => {
+              setDate(range);
+              if (range?.from && range?.to) {
+                setOpen(false);
+              }
+            }}
             numberOfMonths={2}
           />
         </PopoverContent>
