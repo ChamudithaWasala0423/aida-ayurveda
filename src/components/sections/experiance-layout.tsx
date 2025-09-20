@@ -84,7 +84,7 @@ export default function TravelExperiences() {
       location: t("experianseTitleEightLocation"),
       image: "https://res.cloudinary.com/dy3lm6cvw/image/upload/v1755665845/g8_b0lsxe.webp",
       icon: <Turtle className="h-5 w-5" />,
-      category: tc("wildlife"),
+      category: tc("relaxation"),
     },
     {
       id: 9,

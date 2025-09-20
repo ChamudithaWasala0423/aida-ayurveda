@@ -23,6 +23,7 @@ const Footer = () => {
     "https://digitalescapeslk.us9.list-manage.com/subscribe/post?u=5670b29db76c562f712305898&amp;id=d37ac9142b&amp;f_id=001b50e1f0";
 
   const t = useTranslations("Footer");
+  const t2= useTranslations("Navigation");
 
   return (
     <footer className="relative bg-[#FCF2EB] border-t py-24 overflow-hidden mt-16">
@@ -86,13 +87,13 @@ const Footer = () => {
                     </p>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/">
                     <p className="hover:text-orange-600">
                       {t("Links.AidaHotelInduruwa")}
                     </p>
                   </Link>
-                </li>
+                </li> */}
                 <h4 className="font-bold mb-2">{t("ExperienceTitle")}</h4>
                 <ul className="space-y-2">
                   <li>
@@ -111,6 +112,13 @@ const Footer = () => {
                     <Link href="/accommodation">
                       <p className="hover:text-orange-600">
                         {t("Links.Accommodation")}
+                      </p>
+                    </Link>
+                  </li>
+                      <li>
+                    <Link href="/experience">
+                      <p className="hover:text-orange-600">
+                        {t2("ThingsTodo")}
                       </p>
                     </Link>
                   </li>
