@@ -90,7 +90,7 @@ const Footer = () => {
                 <li>
                   <Link href="https://aidaqueenpalace.com">
                     <p className="hover:text-orange-600">
-                      {t("Links.AidaHotelInduruwa")}
+                      {t("Links.aidaHotelInduruwa")}
                     </p>
                   </Link>
                 </li>
