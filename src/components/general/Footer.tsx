@@ -87,13 +87,13 @@ const Footer = () => {
                     </p>
                   </Link>
                 </li>
-                {/* <li>
-                  <Link href="/">
+                <li>
+                  <Link href="https://aidaqueenpalace.com">
                     <p className="hover:text-orange-600">
                       {t("Links.AidaHotelInduruwa")}
                     </p>
                   </Link>
-                </li> */}
+                </li>
                 <h4 className="font-bold mb-2">{t("ExperienceTitle")}</h4>
                 <ul className="space-y-2">
                   <li>

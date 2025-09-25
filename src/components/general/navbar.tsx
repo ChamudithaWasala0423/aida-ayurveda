@@ -90,7 +90,7 @@ export default function NavBar() {
       name: t("ourCollections"),
       children: [
         { name: t("aidaHotelBentota"), href: "/aida-hotel" },
-        // { name: t("aidaHotelInduruwa"), href: "/" },
+        { name: t("aidaHotelInduruwa"), href: "https://aidaqueenpalace.com" },
       ],
     },
     {
